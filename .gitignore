@@ -1,0 +1,5 @@
+agent-tools/
+.DS_Store
+*.pyc
+.venv/
+node_modules/
