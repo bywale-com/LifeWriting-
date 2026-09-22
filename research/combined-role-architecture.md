@@ -1,741 +1,800 @@
 # Combined Role Architecture — Research Synthesis
 
 **Document type:** LifeWriting research. Not a career decision and not Character Architecture.  
-**Date:** 2026-09-22.  
-**Subject (given):** Wale Omotayo, Greater Toronto Area. TSO archetype. Plan A = Omcoda as production laboratory. Plan B = independent operator work before a CS degree. Plan C = later employment where that work must count as the same craft, with the degree expanding access.  
-**Company (given):** [Omcoda](https://www.omcoda.com/) — managed solutions provider, not a custom shop. Tower = eligibility monitoring + client reactivation. Explicit refusal: *we do not take briefs, build to spec, and hand off.* Marble Spaces was not researched.
-
-**This file's job.** Re-synthesize the five route evidence files around one combined capability — Software / Product Engineering with a Backend / Systems spine — and state what becoming that person actually requires. It does **not** pick a winner among employment titles. It does **challenge** the proposed architecture wherever the existing evidence is thin or contradictory.
-
-**Evidence base.** [`role-architecture-deep-pass.md`](role-architecture-deep-pass.md) plus [`evidence/`](evidence/) routes 1–5. Fresh 2026 Canada / GTA / remote-Canada posting scan: [`evidence/plan-c-market-2026.md`](evidence/plan-c-market-2026.md). Public-repo artifact standards: [`evidence/artifact-quality.md`](evidence/artifact-quality.md). Where this document is more certain than those files, that is a writing failure — trust the file.
-
-**Epistemic tags.** **Evidence** = sourced, checkable. **Inference** = reasonable reading of evidence plus subject context. **Hypothesis** = decision-relevant and not established. **Working choice** = the architecture under interrogation, not a finding.
+**Date:** 2026-09-22  
+**Subject:** Wale Omotayo, Greater Toronto Area. Technical Systems Operator archetype. Plan A is Omcoda as a production laboratory. Plan B is independent operator work conducted before finishing a computer science degree. Plan C represents later full-time engineering employment where that independent work must count as legitimate, continuous craft, with the degree serving to unlock formal institutional gates.  
+**Enterprise anchor:** [Omcoda](https://www.omcoda.com/) — a managed solutions provider, explicitly not a bespoke development agency. Current system: Tower (immigration eligibility monitoring and client reactivation workflows). Operating principle: *we do not take briefs, build to specification, and hand off.*
 
 ---
 
-## 0. The working choice, and the first challenge
+### The Task and the Evidence Base
 
-**Working choice (given, not established).** Do not pick one of the five routes as a career. Become a person who owns consequential software systems: understand a domain, encode it, keep its invariants, ship a usable product, operate it. Weight:
+This document synthesizes the five route evidence files into a unified capability architecture: **Software and Product Engineering organized around a deep Backend and Systems spine**.
 
-| Layer | Route | Weight in the working choice |
-|---|---|---|
-| Technical spine | R5 Backend / Systems | Very high |
-| Product expression | R2 Software / Product | Very high |
-| Operate the software | R1 Cloud / Infra | Supporting |
-| Operational truth | R3 Data / Automation | Supporting |
-| Field / organizations | R4 Solutions / FDE | Supporting / field capability |
+The goal here is not to declare a superficial winner among employment titles. Nor is it to paste together five separate career paths into a chaotic weekly schedule. Instead, it defines what it actually means to become someone who can take an organizational domain, model it rigorously, keep its invariants intact, wrap it in a dependable product, and operate it in live production.
 
-ABC as given: Plan A is the flywheel (problem → domain model → core → product → truth → operate → integrate → observe → improve). Plan B must resemble Plan C craft. Plan C is the same craft plus a credential that expands the employment surface — not a new identity after graduation.
+Where the labor market or empirical evidence challenges this working choice, this document states the tension directly.
 
-**What the prior pass already said.** The deep pass refused a route winner and then described a third architecture: own the core (R5), give it a product surface (R2), keep operational truth (R3), keep it trustworthy (R1), put it in the field without selling uniqueness (R4 restricted to FDE-of-own-product). Plan C is a *translation of that laboratory* ([`role-architecture-deep-pass.md`](role-architecture-deep-pass.md) §12.4). The working choice is that third architecture, now named as the thing to become.
+- **Primary synthesis:** [`role-architecture-deep-pass.md`](role-architecture-deep-pass.md)
+- **Underlying route dossiers:** [`evidence/route-1-cloud-infra.md`](evidence/route-1-cloud-infra.md) through [`evidence/route-5-backend-systems.md`](evidence/route-5-backend-systems.md)
+- **Empirical labor market scan (Canada / GTA 2026):** [`evidence/plan-c-market-2026.md`](evidence/plan-c-market-2026.md)
+- **Production repository quality benchmarks:** [`evidence/artifact-quality.md`](evidence/artifact-quality.md)
 
-**Challenge 1 — this is still an inference.** The combination is read off Omcoda's refusals and the B→C chain tables. **Tower's codebase, tenant count, and whether a real state machine exists were not inspected** (deep-pass §14.1; R5 §10.8). Every “continuous chain” below is conditional on that artifact.
-
-**Challenge 2 — the labour market does not hire this combination as one job.** **Evidence.** Faire's Product Engineer posting permits *backend or frontend or mobile* (https://boards.greenhouse.io/faire/jobs/8654106002). Docebo's “Senior Product Engineer I — Automation” is Go/PHP/K8s backend (https://jobs.ashbyhq.com/docebo/f98c67f0-3ee3-4f3e-aaec-9b10c15d9f9d). Wealthsimple Cards is a payments-rail specialist under “Software Developer” (https://jobs.ashbyhq.com/wealthsimple/062a74c6-65e3-4210-bfb3-e0f1af9fe732). Bloomberry: ~30% of “FDE” postings are relabeled SE (https://bloomberry.com/blog/i-analyzed-1000-forward-deployed-engineer-jobs-what-i-learned/). **Inference.** Employers buy *slices*. The combined role is a **capability architecture** that several Plan C titles can *partially* employ. It is not a vacancy title.
-
-**Challenge 3 — Plan B cash fights the center.** R5: the deepest object is employee-shaped; SMB buyers purchase integrations and CRUD, not a multi-year core (R5 §2). R2: Toronto custom-app bands (CA$30–80k) are the default commercial expression and the model Omcoda refuses (R2; deep-pass §6). R4: the market pays for the next workflow. **Inference.** A combined architecture that is not policed weekly by a refusal log will become a custom shop with a systems vocabulary.
-
-**Verdict used in the rest of this file.** The working choice is **supported as the Omcoda / TSO operating system** and **supported as the Plan B object that later translates to mid-IC product/backend seats** — *if* Tower is a live domain core with users. It is **not** supported as “you will be hired to do all five routes,” as “FDE is a safe Plan C,” or as “the degree plus two years of freelance REST equals this person.”
+**Epistemic discipline:**
+- **[Evidence]** marks a factual claim backed by primary job postings, official government labor statistics, architectural design documents, or named industry surveys.
+- **[Inference]** marks an architectural deduction drawn by comparing multiple sources against the subject's operational context.
+- **[Hypothesis]** marks a load-bearing assumption that is plausible and necessary to track, but currently unverified.
+- **[Working choice]** marks the governing hypothesis being tested throughout this synthesis.
 
 ---
 
-## 1. Define the Combined Role
+## 0. The Working Choice and Its Immediate Resistances
 
-### 1.1 Capability statement
+The central proposal under examination is that rather than picking one of five divergent routes (Cloud Platform, Product Engineering, Data Systems, Solutions Implementation, or Backend Core), the subject builds a unified capability profile:
 
-**Inference.** This person is a **domain-core product engineer**: they can take an organizational fact that must stay true over time (eligibility, money, identity, inventory), model it, persist it under transactions, change it through jobs that must not double-fire, expose it through an API and a product surface people actually use, deploy and restore it, and sit with the user when it is wrong.
-
-They are not five specialists. They are one operator whose Tuesday changes costume: schema in the morning, a caseworker's workflow at noon, a failed job at 2 a.m., a deploy on Friday. The costume is not the craft. The craft is **keeping a domain true in software that ships and runs**.
-
-### 1.2 Technical object(s) they own
-
-**Primary object (R5 + R2, Inference).** One bounded context that is both a **system** and a **product**:
-
-- A domain model (entities, states, invariants, “what must never be true”).
-- A persistence story (relational source of truth, migrations, constraints).
-- A time story (jobs, schedules, retries, idempotency keys).
-- A contract story (HTTP API that matches reality).
-- A use story (workflows a professional user can complete without you in the room).
-- An operation story (deploy, logs you have grepped, one alert you would wake for, a restore).
-
-For this subject the named instance is Tower: pathway model, eligibility state, monitoring jobs, reactivation workflows, APIs, a surface consultants use. The *portable* object is not immigration. It is **a live domain core with a product face**.
-
-**Secondary objects (supporting, Inference).**
-
-| Object | Route | Own it only insofar as… |
-|---|---|---|
-| Production control plane of *this* product (IAM, backup, deploy, cost, residency) | R1 | The product stays saleable. Not a platform for other engineers. |
-| Operational truth (grain, valid time, reconciliation, activation) | R3 | Eligibility is a modeled fact, not a Zap. |
-| Field productization (discovery, install, refusal of uniqueness) | R4 | You are FDE of *your* product. Not the client's vendor tenant. |
-
-### 1.3 What they are responsible for keeping true
-
-**Inference.** Not “the site is up.” Specific truths:
-
-1. **Domain invariants.** A case is not eligible and ineligible in the same window. A reactivation does not fire twice. A migration does not invent or destroy legal state.
-2. **Contract.** The API and the UI agree with the store. A caseworker is not shown a lie.
-3. **Time.** Monitoring ran; if it failed, a human can see that and replay without double-notify.
-4. **Tenancy / authz.** Firm A cannot read firm B.
-5. **Restore.** Yesterday's store can come back.
-6. **Use.** A real user can complete the journey the product claims to sell.
-
-**Evidence (why this list, not “uptime”).** Mastering Backend: the data model is the most consequential backend work (https://blog.masteringbackend.com/what-does-a-backend-engineer-do). Kleppmann: transactions exist so partial failure is not a business event (https://dataintensive.net/). R5 §4.1: failure that matters is double-charge / lost eligibility, not HTTP 500. Chatwoot / Twenty / Cal.com production repos treat jobs, migrations, and contract drift as first-class (artifact memo).
-
-### 1.4 Problems they can independently solve
-
-**Competent (Inference).** Given a messy professional-services process: name the states; write a schema with constraints; ship an API and a thin product surface; run a worker; diagnose a wrong state from logs; migrate live data once; onboard a firm without taking a unique brief.
-
-**Not yet (Evidence from all route §5 “not reachable”).** Multi-region consensus; a platform other teams cannot break casually; Staff/Principal technical strategy; OSFI-shaped bank change control; card-network authorization; Palantir-scale customer decomposition as an employed FDSE.
-
-### 1.5 Where Product Engineering ends and Backend / Systems begins
-
-**Working distinction (Inference), not an org chart.**
-
-| Question | Backend / Systems (spine) | Product Engineering (expression) |
-|---|---|---|
-| What is being protected? | Invariants, schema, jobs, API contract, failure modes | Whether a human can complete a valuable journey, and whether the product should exist |
-| Typical artifact | Transition table, migration, idempotent job, OpenAPI, incident note | Workflow, instrumentation, scope cut, UX for a professional user |
-| Failure that matters | Worker dies after commit; illegal state persisted | User cannot finish; wrong problem shipped; state hidden in screens |
-| Shared object | The domain model. R2's deepest object *is* the domain model (R2 §4; 37signals `Recording`). R5's deepest object is the same model plus time and failure. |
-
-**The leak.** R5 §7.4: building Tower UI-first leaves the state machine implicit in screens. **Inference.** Product Engineering that does not force the model into schema + jobs is generic full-stack. Backend that never ships a user journey is a service without a product — Plan C-readable, TSO-incomplete.
-
-**Boundary rule (Hypothesis, load-bearing).** If a week produces screens and no change to invariants, jobs, or contract, the spine was not exercised. If a week produces schema and no user can complete a journey, the product was not exercised. Both weeks are allowed; a quarter of only one is a failure mode.
-
-### 1.6 How much Cloud, Data, and Solutions is actually necessary
-
-**Inference — minimum supporting depth, not career identities.**
-
-| Capability | Necessary amount | Too little | Too much (identity theft) |
+| Layer | Domain Route | Structural Function | Architectural Weight |
 |---|---|---|---|
-| **Cloud / Infra** | Git → prod → rollback; locked secrets; backups restored; structured logs; one business alert; Canada-region / residency awareness; IAM that isolates tenants | SSH-and-hope; secrets in git; never restored | EKS, service mesh, platform-for-internal-devs as the résumé (R1 §7; Fowler/Shopify) |
-| **Data / Automation** | Operational store with grain and valid time; jobs as activation; reconciliation; tests on transformations; CRM as *destination* | Spreadsheet or Zap as system of record | Warehouse specialist disconnected from users; Airflow/Spark identity; “real-time eligibility graph” as a title (R3 §4.3 Hypothesis) |
-| **Solutions / field** | Diagnose a firm's bottleneck; map it onto *your* product; refuse a unique brief; watch a user fail; write the playbook | Never sit with a user; ship into a vacuum | Implementation Consultant / HubSpot-partner identity; pre-sales SE (56% demos — Consensus 2026); self-label FDE |
+| **Technical Spine** | R5: Backend & Systems | Domain modeling, schemas, transactional integrity, background jobs, idempotency, failure recovery | **Very High** (Core Anchor) |
+| **Product Expression** | R2: Software & Product | User journeys, interface density, client state synchronization, shipping cycles, instrumentation | **Very High** (Primary Surface) |
+| **Operational Runtime** | R1: Cloud & Infrastructure | Deployment pipelines, container environments, tenant isolation, backup verification, alerting | **Supporting** (Production Dose) |
+| **Operational Truth** | R3: Data & Automation | Ingestion pipelines, valid-time representations, temporal audit trails, reconciliation sweeps | **Supporting** (Data Integrity) |
+| **Field Diagnostic** | R4: Solutions & FDE | Operational bottleneck discovery, client onboarding, organizational mapping, deliberate brief refusal | **Supporting** (Field Loop) |
 
-**Evidence.** EnzRossi: outsource periphery, not the core domain model (https://enzrossi.com/blog/outsourcing-solutions-for-startups). CNCF platforms serve *internal developers* — the wrong user for Omcoda (R1). Fairview: a Zapier workflow is not a pipeline (https://getfairview.com/blog/build-data-pipeline-small-business). Consensus 2026: SE Tuesday is sales (https://goconsensus.com/research/2026-sales-engineering-compensation-workload-report).
+This structure unifies the ABC framework:
+- **Plan A (Omcoda):** Operates as the laboratory where the entire cycle is exercised: identify a commercial bottleneck $\rightarrow$ formalize the domain model $\rightarrow$ construct the core $\rightarrow$ expose the product $\rightarrow$ maintain operational integrity $\rightarrow$ run in production $\rightarrow$ integrate into client routines $\rightarrow$ observe points of failure $\rightarrow$ refine the software.
+- **Plan B (Independent Operator):** Generates independent commercial revenue and defensible technical artifacts before a computer science degree is earned, explicitly avoiding shallow freelance trap-doors.
+- **Plan C (Degree-Expanded Access):** Enters full-time product software engineering. The degree is used as an access key—clearing algorithmic filters, automated screening systems, and institutional hiring bars—while the actual engineering capability is supplied by the real systems built across Plan A and Plan B.
 
-### 1.7 What should deliberately NOT be part of the capability
+Before accepting this working choice, we must subject it to the friction revealed in the evidence.
 
-Treat these as **refusals**, not as humble gaps:
+### Resistance 1: The Core Laboratory Remains Unverified
+Every continuous transition chain analyzed in this research rests on a single assumption: that Tower is operated as a legitimate, production-grade domain core with relational constraints and asynchronous jobs. However, Tower's codebase, its active tenant count, and its actual operational mechanics have not been independently inspected (`role-architecture-deep-pass.md` §14.1). If Tower is currently a thin user interface wired to external spreadsheets or third-party workflow builders, the central spine is theoretical. The transition chains collapse if the core does not exist.
 
-1. **CMS / theme / Shopify-as-identity** — R2 Chain A; maps to NOC 21234, Very limited, AI/low-code drag (Job Bank 21234).
-2. **Zapier / Make mill** — R3 Chain A; Automation Specialist, not SWE.
-3. **Vendor-certified consultant identity** (Salesforce/HubSpot/Clio as the mountain).
-4. **Canadian “Systems Engineer” Linux/VMware contracts** (TMX R-6232).
-5. **Distributed-systems theater** at 1-person scale (Kafka-as-identity, per-entity microservices, event-sourcing-as-identity).
-6. **Platform Engineer meaning Kubernetes platform for other teams.**
-7. **Data Scientist / ML Engineer** as Plan C (NOC 21211 master's-shaped; Uniflow founding 5+ ML).
-8. **Pre-sales Solutions Engineer** as the job (11-year presales base rate).
-9. **Technical Product / PM** (already out of scope).
-10. **Custom-shop “we take briefs”** — incentive-incompatible with Omcoda even when the code is real.
+### Resistance 2: The Employment Market Hires Slices, Not Holisms
+Hiring managers do not publish requisitions for a universal operator who spans all five disciplines. Product software organizations purchase specific functional roles:
+- Faire hires Product Engineers who can lean frontend, backend, or full-stack, but evaluates them against specific organizational teams (`evidence/plan-c-market-2026.md` §3.1).
+- Docebo uses the title "Product Engineer" to recruit Go and PHP infrastructure engineers who manage Kubernetes clusters and latency service-level objectives (`evidence/plan-c-market-2026.md` §3.1).
+- Wealthsimple hires Software Developers within dedicated Product Engineering groups, but maintains separate pipelines for platform systems and card payment infrastructure (`evidence/plan-c-market-2026.md` §4.1).
+- Bloomberry's analysis of forward-deployed engineering roles confirms that 30% are rebranded pre-sales positions and 10% are internal operations roles (`evidence/plan-c-market-2026.md` §8.1).
 
-### 1.8 Distinctions
+The labor market buys functional components. The combined role is a **personal capability model**, not a job requisition title. Translating this capability into Plan C requires choosing the right organizational surface rather than expecting an employer to hire all five routes simultaneously.
 
-| Nearby identity | What they own | How this person differs |
-|---|---|---|
-| **Generic full-stack developer** | Screens + CRUD + a framework fashion | This person owns invariants and time (jobs), not just request/response. Evidence of the difference is migrations, transition tests, incident notes — not “I used Next and Postgres.” |
-| **Backend specialist (employed)** | A service or platform slice; Time Warp: almost no external client | This person also ships the product face and sits with the organization. Employed backend *amputates* TSO client diagnosis (R5 §9.1). Plan C FTE backend is a *slice* of this architecture, not the whole. |
-| **DevOps / Platform** | Control plane for *other* engineers | This person operates *their* product. R1 supporting dose: deploy, IAM, restore. Not golden paths. |
-| **Data Engineer** | Pipelines, warehouses, SLAs on data landing | This person models *operational* state and activation. Warehouse is optional. Grain/time/reconciliation are required. |
-| **Analytics Engineer** | Meaning in the warehouse (dbt) | Adjacent if Tower's monitoring data becomes a semantic layer. Not the center. |
-| **Solutions Engineer / Implementation Consultant** | Demo or go-live of a vendor product | This person owns the software. Overlap is field diagnosis only. |
-| **True FDE (Type 1)** | Production code in a *customer's* environment that feeds a vendor product | Closest *employed* cousin. Differs: this person owns the product, not Palantir/Salesforce. Bloomberry feeder is SWE 45%, founder 8%. |
-| **Technical PM / Product Manager** | Roadmap, not the runtime | Out of scope. This person decides *and* ships. Ashby PE explicitly wears PM/design hats *as an engineer* (https://jobs.ashbyhq.com/Ashby/272bc3f4-5af6-4c14-b797-a424b62d306c). |
+### Resistance 3: Immediate Cash Pulls Directly Away from the Spine
+Independent contracting markets reward tasks that erode the central discipline:
+- Route 5 demonstrates that mid-market clients almost never hire solo contractors to design their multi-year core domain models; they hire permanent staff (`evidence/route-5-backend-systems.md` §2.1). Contractors are hired for surface integrations or peripheral CRUD utilities.
+- Route 2 demonstrates that Toronto's commercial freelance market routinely offers CA$30,000 to CA$80,000 for custom bespoke applications. This creates constant financial pressure to become a bespoke development shop—the exact pattern Omcoda refuses (`evidence/route-2-software-product.md` §2).
+- Route 4 shows that clients will readily pay for quick Zapier configurations or vendor portal setups. Taking these offers leads straight to an implementation consultant plateau (`evidence/route-4-solutions-implementation.md` §5).
 
-### 1.9 Capability model (one picture)
+If Plan B is not governed by a strict refusal log, short-term survival will turn the operator into a custom development agency or a low-code automation shop, destroying continuity with deep backend engineering.
+
+---
+
+## 1. Defining the Combined Role
 
 ```
-                    field diagnosis (R4, restricted)
-                              │
-                              ▼
-     users ◄── product surface (R2) ◄── domain core (R5) ──► jobs / time
-                              │                │
-                              │                ▼
-                              │         operational truth (R3)
-                              │                │
-                              ▼                ▼
-                         operate this product (R1 dose)
+                          Field Diagnostic Loop (R4 Restricted)
+                                            │
+                                            ▼
+User Workflows ◄──── Product Surface (R2) ◄──── Domain Core (R5) ────► Jobs & Time
+                              │                       │
+                              │                       ▼
+                              │            Operational Truth (R3)
+                              │                       │
+                              ▼                       ▼
+                         Operational Runtime Control (R1 Dose)
 ```
 
-**What they can be hired as (Inference, after strong Plan B + later degree):** Product Engineer (Faire-shaped IC); Software Developer / Software Engineer at a product company (mid, not Wealthsimple Senior 5+); Backend Engineer where the JD wants a domain core, not a K8s platform; Founding Engineer (demo screen); engineering-heavy FDE *if* the coding interview passes and the output test is Type 1.
+### 1.1 The Capability Statement
+The individual formed by this architecture is a **Domain-Core Product Engineer**. 
 
-**What they should not claim:** Staff, Principal, bank senior, Distributed Systems Engineer, Platform Engineer, Implementation Consultant-as-identity, Data Engineer-from-Zaps.
+They take an ambiguous, real-world business process that requires long-term operational correctness (such as legal eligibility, payment reconciliation, or multi-step service workflows), formalize it into a relational state machine, protect it with database constraints, manage its lifecycle through idempotent asynchronous jobs, expose it via a clean HTTP contract, wrap it in a functional interface that professional operators can use without handholding, and maintain it in production.
 
----
+They are not five shallow generalists stitched together. They are an engineer whose daily work adapts to what the system demands:
+- In the morning, refining a relational schema to handle edge-case status transitions.
+- At midday, designing an application view that prevents caseworkers from making invalid data entries.
+- In the afternoon, troubleshooting a dead-letter worker queue that choked on a malformed third-party webhook.
+- On Friday, reviewing migration scripts and deployment health logs.
 
-## 2. Deep requirements analysis
+The tools change; the unifying discipline remains constant: **guaranteeing that a real-world domain is faithfully represented and safely operated in software.**
 
-This is the load-bearing section. Depth is **not** “complete a CS degree checklist.” Depth is **what must be true of the person** for the capability model in §1 to be honest.
+### 1.2 The Technical Objects of Mastery
 
-**How to read each block.** Central = the spine dies without it. Supporting = required at a stated ceiling. Later = after the 1-year object exists. School = CS program as *access and DSA tutor*, not as the source of production taste (working choice; consistent with R5 §3.3).
+Every engineering career centers on a specific technical object. When titles change, this object is what the engineer truly understands:
 
-### 2.1 Computer Science foundations
+#### The Primary Object: The Domain Bounded Context
+The core asset owned by this role is a bounded software context that functions simultaneously as a correct system and a usable product:
+1. **The Invariant Model:** A structural representation of entities, valid states, and illegal transitions (for example, a formal guarantee that a case file cannot exist in contradictory statuses within the same monitoring cycle).
+2. **The Persistence Foundation:** A relational database where business rules are enforced via schema constraints, foreign keys, and atomic transactions.
+3. **The Temporal Subsystem:** A worker architecture handling asynchronous tasks, retries, backoff schedules, and idempotency guarantees.
+4. **The System Contract:** A clear API specification that matches actual runtime responses.
+5. **The Operational Surface:** Interface workflows that give professional users leverage over the domain without corrupting backend state.
+6. **The Runtime Safety Envelope:** Reproducible deployments, structured logging, basic health metrics, and verified database restoration routines.
 
-| Topic | Depth required | Why | Central? | When | Practice | Competent | Excellent | Evidence of it | Best gym |
-|---|---|---|---|---|---|---|---|---|---|
-| **Data structures & algorithms** | Working fluency in arrays/maps/trees/graphs/heaps; complexity as a habit; *interview* fluency as a **separate** block | Production: you pick the right store and notice O(n²) in a job. Plan C: Google-class and many SWE loops are DSA-first (R5 §3.2; https://www.youtube.com/watch?v=Ti5vfu9arXQ) | Central for Plan C screening. Supporting for Plan A (you can ship Tower without LeetCode) | Production habits now; interview block in the degree years | Tower jobs + later dedicated DSA | Can explain why a queue + unique index beats an in-memory list | Can pass a Docs/whiteboard medium and *also* refuse the wrong structure in prod | Interview pass; a job you rewrote after measuring | School + self; **not** Omcoda |
-| **Relational model & transactions** | Isolation phenomena you have been bitten by; constraints as invariants; what a transaction is *for* | This *is* the spine (Kleppmann; R5 §4, §8) | **Central** | Immediately | Tower eligibility writes + job ack | “I wrap the state change in a DB transaction” | Named isolation choice; a story of a lost update you fixed | Schema constraints + incident note | **Plan A** |
-| **Concurrency** | Races, idempotency, “died after commit,” at-least-once | Jobs *are* concurrency (R5 §8; GitLab idempotent workers) | **Central** | With the first job | Duplicate webhook tests | Job is safe to run twice | Unique operation key + resume-not-bail (artifact memo §5) | Integration test + unique index | **Plan A** |
-| **Networking** | HTTP semantics, TLS, DNS, timeouts, idempotent methods | APIs and “it works on my machine” | Central-supporting | Year 1 | Public API + one integration | Correct status codes, timeouts, retries | Versioning without breaking a client; you have seen a retry storm | OpenAPI + an incident | Plan A |
-| **OS / processes** | Process vs thread, files, signals, memory enough to debug a worker and a web process | Twenty's split (API + worker) is the production shape | Supporting | When you run two processes | Compose: web + worker + Postgres | You can tell which process died | You can reason about crash, restart, poison | Runbook: which process, which log | Plan A |
-| **Distributed systems (Kleppmann sense)** | Reliability, consistency choices, derived data. **Not** Paxos, multi-region, consensus | 1-person Tower is a backend-systems problem (R5 §0 Hypothesis) | Supporting as *vocabulary*; not as a job | After year-1 core | Read DDIA against *your* failures | You can say why you did **not** distribute | You add a log when a second consumer is real | ADR: “modular monolith because X” | Plan A + reading |
-| **Theory / compilers / graphics / numerical** | Not required | Does not keep eligibility true | Out | Never for this architecture | — | — | — | — | School elective only |
+In this project, this object is embodied in Tower's immigration tracking and client reactivation platform. Across a career, it is portable to any domain where operational correctness is paramount.
 
-**Inference.** The CS degree's unique job in this architecture is **eligibility + DSA + (for some programs) OS/networks taught as a system**. It does not teach taste for invariants. Treating “I finished CS” as this table is the degree-as-magic failure (deep-pass §13.6).
+#### The Supporting Objects
+The remaining disciplines are mastered only to the extent that they reinforce this primary object:
+- **Cloud Runtime (R1):** Mastered to ensure the application environment is secure, isolated, and recoverable. The engineer does not build generic internal developer platforms for large corporate fleets; they operate their own system cleanly.
+- **Data Integrity (R3):** Mastered to model time-series facts, event ingestion, and state verification. The engineer does not build massive enterprise data lakes; they ensure operational data remains reliable.
+- **Field Productization (R4):** Mastered to analyze client processes, integrate with external software, and run customer discovery. The engineer does not become a vendor consultant; they deploy and validate their own product.
 
-### 2.2 Programming
+### 1.3 What This Engineer Keeps True
 
-| Topic | Depth | Why | Central? | When | Practice | Competent | Excellent | Evidence | Best gym |
-|---|---|---|---|---|---|---|---|---|---|
-| **One primary language, deeply** | Idioms, debugging, packaging, types-or-discipline, test runners | Banks want Java/Spring (Smile, Nue, TD — R5). Product PE often TS/React+Node (Ashby, Linear) or Java/Kotlin (Faire) or Rails (Wealthsimple). | **Central** (one language). Second language is supporting | Now | All of Tower in one stack | Ship and operate in it | Can read a foreign stack in a pairing interview (Ashby pairs in *their* repo) | Repo + production | Plan A |
-| **Second language (reading)** | Enough to pass a pairing / bank screen later | Stack provincialism is a TSO failure (R5 §9.5). **Hypothesis:** primitives transfer; ATS may not | Supporting | After year-1; Java if banks stay in Plan C | Katas + a small service, not a Tower rewrite | Can modify a Spring/Rails controller without theater | Can explain isolation in that stack | A PR in the target stack | Plan C prep / school |
-| **Debugging** | Prod-first: logs, bisect, bisect the *state* | Time Warp: debug is a real share; incident weeks 40–70% (R5 §1.1) | **Central** | Now | Every incident | Find a wrong eligibility from logs | Write the test that would have caught it | Incident notes | Plan A |
-| **Testing** | Unit of the state machine; integration of job+DB; contract gated | Google SWE book ~80/15/5; Chatwoot/Twenty/Cal CI (artifact memo §3) | **Central** | With first invariant | CI on every merge | Tests exist and run in CI | Illegal transition + “job ran twice” fail the build | CI logs | Plan A |
-| **Refactoring / modularity** | Named modules by domain, exclusive data ownership | Shopify modular monolith; not Packwerk-for-one | Central | After the core exists | Extract `eligibility` / `monitoring` | You can point at a boundary | You can say which boundary you would cut first | ADR + directory | Plan A |
-| **Version control & review** | History as evidence; PR discipline even solo | Employers probe “worked on a team” (Wealthsimple: “senior contributor on a team”) | Supporting | Now | Solo PRs + ADRs; later staff-aug or OSS | Clean history, reversible commits | Review notes that teach | Git log + one external review | Plan A; **gap:** team review needs Plan C or OSS |
-| **Performance** | Measure the CUJ you sell (eligibility p95, job lag) | Load-without-users is theater | Supporting | After users | One measured query/job | You have an EXPLAIN | You have a budget | A before/after | Plan A |
-| **Tooling / AI-assisted coding** | Stated at Faire, Wealthsimple, Docebo, Dimely, Publicus (2026 scan) | Market token, not mastery | Supporting | Now | Use it; do not ship slop | Agents write drafts you can defend | You reject unsafe diffs | Publicus: “No AI slop” demo | Plan A/B |
+This engineer is measured not by vague uptime statistics, but by the concrete invariants they protect:
+- **Domain Invariants:** Conflicting statuses cannot be written to the database. Actions cannot double-fire. Database migrations never silently discard historical records.
+- **Contractual Integrity:** What the API promises matches what the database persists and what the user interface displays. Caseworkers are never shown misleading data.
+- **Temporal Guarantees:** Scheduled monitoring runs on time. When external networks fail, jobs retry safely using unique operational keys rather than corrupting state.
+- **Tenant Isolation:** Client data remains completely separated across organizations.
+- **System Recoverability:** The database can be restored from backup media at any time to a verified point in recovery history.
+- **Functional Utility:** A non-technical professional can complete their core workflow without requiring custom intervention from the developer.
 
-**Hypothesis (R5 §8).** A person with these primitives and a live Tower learns Java/Spring for a bank loop faster than a Java graduate learns care. Do not assume ATS agrees.
+### 1.4 Problems Solved Independently vs. Those Deferred
 
-### 2.3 Backend / Systems (spine)
+#### Problems Solved Independently
+- Taking an unstructured operational process, isolating its business rules, and translating them into an explicit database schema and state machine.
+- Building a modular application that combines HTTP endpoints, secure authentication, and a dependable background job processor.
+- Shipping user interfaces tailored for high-density professional work, avoiding fragile state held only in browser memory.
+- Diagnosing production bugs across the stack—tracing an error from a user's browser down through API handlers, database queries, and background job logs.
+- Executing database schema migrations against live production tables without downtime or data corruption.
+- Onboarding new client organizations using a standardized configuration playbook while firmly declining custom development requests.
 
-This is the technical specialization. Depth here is what distinguishes the role from generic full-stack.
+#### Problems Deliberately Deferred
+- Multi-region database replication, raft consensus protocols, and custom distributed storage engines (large-scale infrastructure).
+- Designing shared platform ecosystems meant to support hundreds of disparate internal engineering teams (enterprise platform engineering).
+- Large enterprise governance committees, formal change advisory boards, and heavy regulatory compliance administration (corporate IT structures).
+- High-volume transaction processing systems, such as direct credit card networks or high-frequency exchange matching engines (niche financial infrastructure).
 
-| Topic | Depth | Why | Central? | When | Competent | Excellent | Evidence | Gym |
-|---|---|---|---|---|---|---|---|---|
-| **Domain modeling** | Entities vs events; slowly changing pathways; “done” | R2+R5 shared object | **Central** | Week 1 | ERD that matches reality | Invariants written; illegal states unrepresentable | Schema + ADR | A |
-| **HTTP APIs** | Methods, pagination, authn headers, versioning | Face of the model | **Central** | Year 1 | CRUD that is honest | Idempotent PUT; versioning; contract tests | OpenAPI + CI drift check | A |
-| **Authn / authz** | Tenant + role + object; deny-by-default | ASVS V8; professional-services data | **Central** | Before a second firm | Login works; tenants isolated | IDOR tests; policy objects (Chatwoot `app/policies`) | Policy specs | A |
-| **Databases** | Postgres (or equivalent) as source of truth; indexes you chose; constraints | R5 consistency choice | **Central** | Year 1 | Migrations apply | Drift CI; live migrate story | Migration history | A |
-| **Transactions** | Atomicity of state+ack | Kleppmann | **Central** | With first job | Wrapped writes | Isolation story | Incident + test | A |
-| **Jobs / queues** | At-least-once, keys, poison, backoff; queue ≠ log | Product's clock (R5 §7.1) | **Central** | Year 1 | Worker process exists | GitLab-shaped idempotent worker | Job specs + unique index | A |
-| **Caching** | Know when *not* to | Stale eligibility is a lie | Supporting | After a measured pain | No cache, correctly | Cache with explicit invalidation | ADR | A |
-| **Migrations** | Ritual, not a file | Ghost migration-review checklist | **Central** | First schema change in prod | `up` works | Idempotent `up`/`down`; no mixed DDL/DML | Review note + prod apply | A |
-| **Observability** | Logs/metrics you used | Charity Majors: done when you know it's working in prod | **Central** | First user | Structured logs + worker errors | One business alert; job IDs on every line | Grep story | A |
-| **Failure modes** | Retry storms, partial deploy, “exactly once” as a lie | R5 §8 | **Central** | First incident | You have one story | Catalogue from production | Incident notes | A |
-| **Security** | ASVS L1: TLS, hashed secrets, server-side authz, validation | Immigration-adjacent data | **Central-supporting** | Before paying firms | No secrets in git | IDOR + tenancy tests | Checklist + tests | A |
-| **Distributed systems at scale** | Replication, consensus, multi-region | Not the 1-person problem (R5 §0) | Out / later decade | After a real second consumer | — | — | — | C at infra-product cos |
+### 1.5 The Boundary: Where Product Engineering Ends and Backend Systems Begins
 
-### 2.4 Product Engineering (expression)
-
-| Topic | Depth | Why | Central? | When | Competent | Excellent | Evidence | Gym |
-|---|---|---|---|---|---|---|---|---|
-| **User workflows** | Professional-user density, not consumer delight | Omcoda buyers are caseworkers, not shoppers | **Central** | With first user | A journey completes | You watched a user fail and changed the model | Session note + commit | A + field |
-| **Frontend (necessary amount)** | Enough to ship and instrument the journeys you sell | Faire/Ashby/WS expect contribution across the stack; Linear hard systems are *not* Next.js (R2) | Supporting-central | Year 1 | Accessible, boring, correct | State not hidden in the client | UI talks to the API contract | A |
-| **Product architecture** | Modules by user-visible capability that map to domain modules | Avoids UI-first leak | **Central** | Year 1 | Screens map to states | Cutting a screen does not orphan state | Directory + ADR | A |
-| **Shipping / iteration** | Small releases, migrate+restart web+worker | Feature not done at merge (R2) | **Central** | Now | Weekly ship | Rollback note exists | Deploy log | A |
-| **Instrumentation** | Did the CUJ happen? | Product feedback loop (R2 §8) | Supporting | After users | One event per CUJ | You killed a feature from data | Dashboard you used | A |
-| **Quality / maintainability** | Change next year without lying | Artifact memo §6 | **Central** | Always | Tests + migrations | Constraint system others could extend | Time-to-change story | A |
-| **Scope / “what is worth solving”** | Faire/Ashby stated responsibility | Distinguishes PE from ticket FS | **Central** | Plan B | You refused a brief | You wrote the spec *and* the code | Refusal log + spec | A/B |
-
-**Frontend ceiling (Inference).** Learn the current product surface (likely React/TS if Plan C includes Ashby/Faire/Harvey). Do not become a CSS/framework specialist. Do not treat mobile as required (Faire lists it as optional).
-
-### 2.5 Infrastructure / Operations (supporting)
-
-| Topic | Depth | Why | Central? | When | Competent | Excellent | Evidence | Gym |
-|---|---|---|---|---|---|---|---|---|
-| **Linux** | Process, files, logs, ssh, permissions | Worker + web are Linux | Supporting | Year 1 | You can debug on the box | You wrote the runbook from the box | Runbook | A |
-| **Containers** | Compose: web, worker, db, cache | Chatwoot/Twenty/Cal shape | Supporting | Year 1 | `compose up` is prod-like | Migrate is in the release | compose file | A |
-| **CI/CD** | Test + migrate + deploy on merge | Professional vs portfolio (artifact §2.5) | Supporting-central | Year 1 | CI is the merge gate | Path-filtered; schema drift fails | Workflow YAML | A |
-| **Cloud** | One provider, boring: compute, object storage, managed Postgres, secrets | Trust input (R1) | Supporting | When leaving localhost | Env exists | IAM least privilege; region chosen | Terraform or equivalent *for this app* | A |
-| **IaC** | Enough to recreate the estate | R1 primitive | Supporting | Year 1–2 | Remote state locked | Recreate from zero | Repo + apply log | A |
-| **Monitoring / incident** | Is it up / slow / erroring / is the job late | Startup SRE, not SLO burn-rate matrices | Supporting | First user | Uptime + job lag | Blameless 1-page review | Incident notes | A |
-| **Security / tenancy / residency** | PIPEDA-aware hosting; backups | Professional-services data (R1 §7) | Supporting | Before paid tenants | Encrypted at rest; backups | Restore test dated | Restore note | A |
-| **Scaling / cost** | Know the bill; vertical first | 1-person premium is cash (R5 §7.1) | Supporting | After users | You can explain the bill | You refused K8s on cost | Cost note | A |
-| **K8s / service mesh / multi-region** | Not required | Theater at this scale | Out | Only if Plan C is platform | — | — | — | C only |
-
-### 2.6 Data / Automation (supporting)
-
-| Topic | Depth | Why | Central? | When | Competent | Excellent | Evidence | Gym |
-|---|---|---|---|---|---|---|---|---|
-| **SQL** | Joins, windows, EXPLAIN, transactions | Spine language | **Central** (shared with §2.3) | Now | Honest queries | Grain you would defend | Query + EXPLAIN | A |
-| **Schemas / grain / time** | Event time vs valid time; SCD if needed | Eligibility is temporal (R3) | **Central-supporting** | Year 1 | Current state is correct | You can answer “were they eligible on date D?” | Table design | A |
-| **Pipelines** | Ingest IRCC/status → store; not a warehouse | Tower product | Supporting | When a source exists | Idempotent ingest | Schema-drift test | Job + test | A |
-| **ETL/ELT / warehouse** | Optional | Only if monitoring data is treated as a platform (R5 §6.1) | Out until a second consumer | Later | — | dbt tests on *derived* meaning | — | A later or C |
-| **Events** | Outbox if a second consumer appears | Premature event backbone is a failure (R5 §7.3) | Supporting, delayed | After second consumer | — | — | ADR | A |
-| **Workflow automation** | Durable jobs, not Zapier as store | R3 Chain A is the trap | Supporting as *engine*; Out as *identity* | Now as jobs | n8n may *call* the API | State lives in Postgres | Architecture picture | A |
-| **Analytics / instrumentation** | CUJ events | Product loop | Supporting | After users | One trusted number | Semantic meaning named | Event spec | A |
-| **Data quality** | Reconciliation: store vs source vs UI | Silent failure is the DE horror (R3) | Supporting-central | Year 1 | A recon job | You caught a lie before a client | Recon incident | A |
-
-### 2.7 Field / organizational capability
-
-| Topic | Depth | Why | Central? | When | Competent | Excellent | Evidence | Gym |
-|---|---|---|---|---|---|---|---|---|
-| **Problem diagnosis** | Why is *this firm* losing files / missing windows | TSO first verb; employed backend amputates it (R5 §9.1) | **Central for TSO / Plan A** | With first firm | You can name the bottleneck | You refused to automate the wrong step | Discovery note | **A/B field** |
-| **Technical discovery** | Map process → states → what software should own | Prevents Zapier-as-OS | **Central** | Always | A process diagram that became a schema | The schema surprised the client usefully | Before/after | A |
-| **Stakeholder communication** | Professional-services language, not Kafka | Buyers buy outcomes (R5 §2.3) | Central for Plan B cash | Now | Outcome sentence | Case study without logos-as-craft | Written case | B |
-| **System mapping** | Their Clio/mailbox/IRCC vs your core | Integration is periphery | Supporting | First integration | A box diagram | Clear ownership of each fact | Diagram | A/B |
-| **Integration work** | Webhooks, OAuth, retries | Sells; also Chain B trap if it *is* the product | Supporting | When a real consumer exists | A working connector | Idempotent, monitored | Code + incident | A/B |
-| **Documentation** | Runbook, ADR, API, playbook | Handoff without taking a brief | Supporting | Year 1 | README that is true | Incident + runbook + ADR | `docs/` | A |
-| **Deployment into orgs** | Onboarding a firm onto *Tower* | R4 restricted | Supporting | First customer | A playbook | Refusal of uniqueness is in the playbook | Playbook + refusal log | A/B |
-| **User observation** | Watch, do not interview only | Ashby/Faire PE stated | Supporting-central | First user | One observed failure | Product change from observation | Note + commit | A |
-| **Operating inside orgs** | Stand-ups, review, someone else's codebase | Wealthsimple “on a team”; R5 Chain C signal | Supporting for Plan C | Plan C or OSS/staff-aug | You can take review | You gave review | External PR | **C / OSS** (A cannot teach this) |
-
-### 2.8 Dependencies (ordered mastery, not a calendar)
+| Decision Dimension | The Backend & Systems Spine (R5) | The Product Engineering Expression (R2) |
+|---|---|---|
+| **What is being protected?** | System correctness: relational integrity, background jobs, operational contracts, and failure handling. | Problem utility: whether the software solves a real operational problem and provides an effective user experience. |
+| **Typical artifacts produced** | State transition tables, database migrations, idempotent job workers, OpenAPI specifications, and post-incident analyses. | Workflow views, event telemetry, scope definitions, and density-optimized user layouts. |
+| **Critical failure modes** | Background workers crashing after database commits; race conditions corrupting customer state. | Shipping the wrong feature; trapping critical business logic in client-side code where it cannot be verified. |
+| **The shared foundation** | **The domain model.** In Route 5, it is the core engine that governs state. In Route 2, it is the conceptual structure that shapes the product interface. |
 
 ```
-SQL + one language + git
-        │
-        ▼
-domain model ──► schema + constraints ──► HTTP API + authz
-        │                                      │
-        ▼                                      ▼
-transactions + jobs/idempotency          thin product surface
-        │                                      │
-        ▼                                      ▼
-observability + CI + deploy/restore ◄── instrumentation
-        │
-        ▼
-first real user / firm ──► incidents ──► migrations in anger
-        │
-        ├─► field diagnosis + refusal log          (Plan B cash that stays on-object)
-        ├─► integrations as periphery              (do not become the product)
-        ├─► DSA / system-design theater            (parallel; school + dedicated block)
-        └─► second language / team review          (Plan C prep; not year-1)
+The UI-First Anti-Pattern:
+Domain Logic Trapped in Browser Components ──► No Backend Invariants ──► Untestable State ──► Data Drift
+
+The Correct Combined Architecture:
+Explicit State Engine ──► Enforced Database Constraints ──► Clean API ──► Thin, High-Leverage UI
 ```
 
-**Do not start with:** Kubernetes, warehouse, vendor certs, microservices, LeetCode-only, CMS, a second language rewrite of Tower.
+**[Inference]** If an engineer spends an entire quarter polishing interface components without touching database models, job queues, or system contracts, the technical spine atrophies into surface-level frontend development. Conversely, if an engineer spends months tuning backend architectures while real users struggle with confusing, broken workflows, they are writing backend services in a vacuum. A healthy development cadence balances both: **the backend spine guarantees system correctness, while the product surface delivers operational value.**
 
-**Inference.** Until “first real user + one incident + one live migration” exists, additional supporting capabilities are decoration. That is the 1-year gate from R5 §4.2 and deep-pass §4.
+### 1.6 Supporting Disciplines: The Necessary Scope vs. Role Theft
 
-### 2.9 What each environment uniquely trains
+```
+Targeted Infrastructure Dose:
+[Git Commit] ──► [Automated CI Checks] ──► [Container Build] ──► [Zero-Downtime Deploy] ──► [Log & Metric Alerts]
+                                                                                                  │
+                                  Avoid: Complex Service Meshes & Excessive Tooling ◄─────────────┘
+```
 
-| Environment | Trains well | Cannot train |
-|---|---|---|
-| **Plan A (Omcoda/Tower)** | Invariants, jobs, product surface, ops of *this* system, field diagnosis, refusal, longitudinal ownership | Team review culture; someone else's mature codebase; OSFI; DSA; Staff influence; Java/Spring as default |
-| **Plan B (independent, on-object)** | Closing, scoping, outcome language, integrations, cash | Same as A if A *is* B. Off-object B trains the wrong occupation |
-| **Plan C (product-company IC)** | Review, shared code, leveling, design interviews as sport, collaboration evidence | TSO client diagnosis (amputated); founder ownership; Omcoda refusals |
-| **School (CS)** | Eligibility at banks/gov; DSA reps; some OS/networks; peer cohort | Production taste; users; incidents; Omcoda economics |
+#### Infrastructure & Operations (R1 Supporting Dose)
+- **What is required:** Automated deployment pipelines, secure secret management, containerized local and production environments, automated database backups with verified recovery drills, structured application logging, basic latency alerting, and strict tenant access policies.
+- **Where it fails by under-building:** Relying on manual server logins, keeping configuration secrets in git repositories, or neglecting database backup testing.
+- **Where it fails by over-building (Role Theft):** Spending months building multi-cluster Kubernetes networks, configuring complex service meshes, or pursuing enterprise infrastructure certifications for an application that runs on a single primary server.
 
----
+#### Data & Automation (R3 Supporting Dose)
+- **What is required:** Clean operational schemas designed with explicit temporal awareness (event timestamps versus valid-time windows), transactional reconciliation routines that detect missing records, and reliable event-driven workers. External automation platforms (such as n8n) are used strictly as peripheral relays to call internal APIs.
+- **Where it fails by under-building:** Treating client spreadsheets or third-party CRM records as the system of record.
+- **Where it fails by over-building (Role Theft):** Setting up heavy distributed data processing pipelines (such as Spark or Snowflake) to analyze small operational datasets that fit comfortably in a single relational database.
 
-## 3. Plan A requirements — Omcoda as professional evidence
+#### Solutions & Field Engineering (R4 Supporting Dose)
+- **What is required:** Conducting structured operational discovery with client firms, translating administrative workflows into system models, observing caseworkers using the product to identify interface friction, and creating structured customer onboarding guides.
+- **Where it fails by under-building:** Writing code without ever watching a real customer attempt to complete a task in the software.
+- **Where it fails by over-building (Role Theft):** Becoming a billable implementation specialist who configures third-party enterprise platforms (Salesforce or HubSpot), drifting into pre-sales slide preparation, or agreeing to build custom features on demand.
 
-**Question.** What must Omcoda *be* so that years in it are mid-IC evidence rather than a founder story?
+### 1.7 Deliberate Exclusions: What Must Not Be Built
 
-### 3.1 Systems that must exist
-
-**Inference** (R5 Chain A + artifact memo §5 + deep-pass 1-year tests):
-
-1. **Eligibility / pathway core** — schema, constraints, tested transition table.
-2. **HTTP API** — contract committed; at least one drift check.
-3. **Job runner** — monitoring + reactivation as processes; unique operation keys; poison path.
-4. **Product surface** — the journeys you sell, talking to the API, not holding state.
-5. **Authz / tenancy** — firm isolation tested.
-6. **Ingest** — status/source → store, idempotent (R3).
-7. **Operate** — compose or PaaS; web + worker + Postgres; backups restored; structured logs; one business alert.
-8. **Docs that are evidence** — ADRs, runbook, incident notes, refusal log, OpenAPI.
-
-**Do not require:** warehouse, Kafka, K8s, per-entity services, mobile, a second product.
-
-### 3.2 Technical complexity required
-
-**Evidence.** Fowler Monolith First; Shopify “no architecture in the early days”; 37signals majestic monolith; Segment's 140-service tax. **Inference.** Required complexity is **correctness under failure in a real domain**, not distribution. A modular monolith with jobs is enough complexity to be mid-IC. Artificial complexity is anti-evidence to a careful hiring manager (R5 §7.3).
-
-### 3.3 Production conditions required
-
-| Condition | Why it is load-bearing |
-|---|---|
-| **Not localhost-only** | GitHub-only Tower collapses Chain A to Chain B (R5 §7.4) |
-| **Migrations applied to non-empty data** | Ghost/Twenty treat this as the professional ritual |
-| **Worker crashes in anger at least once** | R5 3-year object is operational stories |
-| **Backup restore performed** | R1 trust input |
-| **Secrets, TLS, tenant isolation** | Professional-services data |
-
-### 3.4 Users / customers required
-
-**Inference.** At least **one** real firm using Tower for a real pathway, with a real missed-window cost. Ten vanity tenants with no jobs running are still a demo. Conversion, ACV, and whether GTA immigration/legal will *buy operated software vs Clio+Zapier* are **unmeasured** (deep-pass §14.2). **Hypothesis.** One demanding firm teaches more than ten polite pilots.
-
-### 3.5 Operational responsibility required
-
-You are on-call for the code you wrote (Majors). Informal SLO: “monitoring finished by X” (R5 §8). A dated incident note. This is not GitLab EOC theater.
-
-### 3.6 Artifacts generated (the résumé translation)
-
-Name them as engineering, not as CEO (founder-discount Hypothesis, deep-pass §13.4):
-
-- Eligibility state machine (tested).
-- Idempotent monitoring / reactivation jobs.
-- Migration history + one live migrate.
-- OpenAPI matching runtime.
-- Tenant authz tests.
-- Incident notes (correctness-under-failure).
-- Runbook.
-- Refusal log (briefs declined).
-
-### 3.7 Failures that create meaningful experience
-
-Duplicate webhook; worker died after commit; partial migration; bad source payload; illegal transition attempted; job older than SLA; tenant leak caught in test (ideally) or in prod (expensive). **Inference.** If two years produce no such story, Plan A was a portfolio.
-
-### 3.8 What Omcoda can teach well / cannot
-
-**Teaches well (Inference, deep-pass §10):** domain core, product surface, operational truth, boring production, field diagnosis, TSO loop, restraint on distribution.
-
-**Cannot teach:** team review; mature foreign codebase; bank/OSFI envelope; Staff influence; DSA; Java-as-default; Palantir-class customer decomposition at volume; “OS of the firm” as something *employers* hire (deep-pass §14.10).
+To preserve this combined capability, the engineer explicitly rejects several common paths:
+1. **Content Management and Website Theming:** Building custom themes or setting up marketing websites (NOC 21234). This work traps the developer in low-margin layout adjustments and offers no continuity with backend software engineering.
+2. **Low-Code Automation Agency Work:** Running an agency centered on linking third-party apps through Zapier or Make. This creates shallow workflows that fail silently and offer no experience with database schemas or software testing.
+3. **Third-Party Enterprise Vendor Consulting:** Pursuing certifications to configure enterprise ecosystems like Salesforce, ServiceNow, or Workday. This binds the engineer's career to another company's proprietary platform.
+4. **Corporate Datacenter System Administration:** Taking on legacy Linux systems administration, enterprise directory configurations, or virtualization contracts (such as the TMX contract analyzed in Route 5). This is IT infrastructure maintenance, not application software engineering.
+5. **Premature Distributed Systems Tooling:** Introducing distributed streaming frameworks (like Kafka), microservices architectures, or complex clustering to an early-stage product. This adds operational drag without technical justification.
+6. **Machine Learning and Data Science Specialization:** Attempting to build specialized machine learning models (NOC 21211). These paths typically require advanced graduate degrees and pull focus away from software architecture.
+7. **Bespoke Agency Development:** Operating as a custom dev shop that takes client briefs, builds arbitrary software, and hands it off. This breaks Omcoda's core operating model and prevents long-term ownership of a single domain.
 
 ---
 
-## 4. Plan B requirements — independent operator
+## 2. Deep Requirements Analysis
 
-**Rule (given, restated as Inference from all five Chain tables).** Plan B compounds toward Plan C only when the next employer is buying the **same object**. Cash that trains a different occupation is allowed only as a short runway, and it must be labeled as such.
+```
+                              Mastery Progression Engine
+                              
+      Foundations           Core Systems         Product & Field         Plan C Access
+    ┌──────────────┐      ┌──────────────┐      ┌──────────────┐      ┌────────────────┐
+    │ Relational   │ ──►  │ State Models │ ──►  │ Real User    │ ──►  │ Algorithm &    │
+    │ Databases,   │      │ & Invariant  │      │ Workflows    │      │ Data Structure │
+    │ Concurrency, │      │ Architecture,│      │ & Discovery, │      │ Interview      │
+    │ Async Jobs   │      │ Robust APIs  │      │ Operational  │      │ Preparation,   │
+    │              │      │              │      │ Reliability  │      │ Formal Degree  │
+    └──────────────┘      └──────────────┘      └──────────────┘      └────────────────┘
+```
 
-### 4.1 Sellable offers consistent with the central craft
+This section outlines the actual competencies required to embody this combined role. Competence is not defined by completing an academic checklist; it is defined by building and maintaining software that does not break under production conditions.
 
-**In order of realism (R5 §2.3 Hypothesis + deep-pass §6):**
+### 2.1 Computer Science Foundations
 
-1. **Operate Tower** for professional-services firms — outcome sale, R5 craft, R4-shaped conversation. Mastery path.
-2. **A module that stays Omcoda's**, installed in a firm (FDE-of-own-product). Still (1).
-3. **Scoped integration that talks to Tower's API** (periphery, cash, keep short).
-4. **Staff-aug backend** later, if a network exists — B→C hinge, CRA risk if single-client employee-shaped (R5 §2.4).
+#### Relational Foundations and Transaction Mechanics
+- **Required depth:** Comprehensive working knowledge of relational algebra, functional dependencies, normal forms, transaction isolation levels, row-level locking behavior, write-ahead logging, and index structures (B-Tree, GiST, GIN).
+- **Why it matters:** This forms the core of the technical spine. If an engineer does not understand database consistency, application bugs will corrupt the persistent state of the business.
+- **Position & timing:** **Central.** Must be learned at the very beginning of the journey.
+- **Practical training:** Writing raw schema definitions and complex transactional updates for Tower's tracking state machine.
+- **Competent execution:** Wrapping related database mutations in standard database transactions.
+- **Excellent execution:** Designing transactions with explicit isolation levels, avoiding deadlocks, using row-level locking (`SELECT ... FOR UPDATE`) where appropriate, and understanding database lock escalation.
+- **Demonstrated evidence:** Database migration files with explicit column constraints, foreign keys, and indexes, backed by a technical incident review detailing how a concurrent update race condition was resolved.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-**Not on this list:** “I will design your core APIs” as a pre-degree GTA product (buyers of that are Perimattic-shaped shops). Custom apps to spec. HubSpot/Clio implementations. Zapier retainers. CMS. Landing-zone/EKS for immigration firms.
+#### Concurrency and Asynchronous Systems
+- **Required depth:** Mastery of multi-process execution models, thread safety, race conditions, atomic operations, and asynchronous worker queues.
+- **Why it matters:** Background job execution is inherently concurrent. When network timeouts or server restarts occur, jobs must execute safely without duplicating business side effects.
+- **Position & timing:** **Central.** Must be introduced alongside the first asynchronous background task.
+- **Practical training:** Building webhook ingestion pipelines and time-based monitoring workers for Tower.
+- **Competent execution:** Offloading slow operations to a background queue with automatic retry handling.
+- **Excellent execution:** Enforcing strict idempotency across all background jobs using deterministic operational keys, unique database indexes, and dead-letter queue inspection tools.
+- **Demonstrated evidence:** Automated integration tests confirming that a background job can run multiple times consecutively without duplicating records or side effects.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-### 4.2 Client / company profiles
+#### Network Protocols and API Mechanics
+- **Required depth:** Practical command of the HTTP/1.1 and HTTP/2 protocol specifications, transport security (TLS), TCP connection lifecycles, DNS resolution, and RESTful resource modeling.
+- **Why it matters:** APIs serve as the system contract for client applications and external integrations.
+- **Position & timing:** **Central.** Must be mastered in Year 1.
+- **Practical training:** Designing, documenting, and maintaining Tower's core application APIs.
+- **Competent execution:** Building functional API endpoints with correct HTTP verbs, standard status codes, and input validation.
+- **Excellent execution:** Designing predictable APIs with clean cursor pagination, consistent error payload structures, client idempotency headers, and versioned contracts.
+- **Demonstrated evidence:** An OpenAPI specification checked by automated continuous integration tests to prevent contract drift against running API endpoints.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-| Fit | Who | Why |
-|---|---|---|
-| **Good** | Immigration / legal / financial firms that will *use* an operated eligibility/reactivation system | Same domain as Tower; field loop |
-| **Acceptable cash, weak continuity** | SMBs wanting Stripe/CRM glue | R5 Chain B |
-| **Wrong buyer for the spine** | Product companies wanting a contractor to own their core | They hire FTE (EnzRossi); you become staff-aug |
-| **Wrong buyer for Omcoda** | Anyone sending a unique app brief | Custom-shop gravity |
+#### Algorithms and Abstract Data Structures
+- **Required depth:** Thorough command of core computer science structures (arrays, hash tables, linked lists, trees, graphs, heaps) and algorithmic analysis ($O(n)$ time and space complexity).
+- **Why it matters:** While everyday web development rarely involves writing custom balancing trees, algorithmic thinking prevents performance bottlenecks in production code. Crucially, it remains the primary filtering mechanism for technical screening interviews in Plan C.
+- **Position & timing:** **Supporting for Plan A; Central for Plan C technical interviews.** Core principles should be practiced during development; intensive interview preparation should occur alongside academic studies.
+- **Practical training:** Analyzing real performance bottlenecks in data processing jobs; structured algorithm practice.
+- **Competent execution:** Selecting appropriate in-memory data structures to avoid common performance pitfalls like $O(n^2)$ lookups.
+- **Excellent execution:** Comfortably writing, analyzing, and explaining algorithmic solutions on a whiteboard or shared document under technical interview conditions.
+- **Demonstrated evidence:** Passing competitive technical screening loops; profiling and refactoring a real background worker to reduce processing time.
+- **Optimal learning context:** **University degree studies and dedicated independent practice.**
 
-### 4.3 Project types, depth, ownership, duration
+### 2.2 Programming Craft and Modularity
 
-| | Minimum to count as Plan B *of this architecture* |
-|---|---|
-| **Technical depth** | Schema + jobs + API + authz + deploy; not screens-on-CRM |
-| **Ownership** | You chose the invariants and live with them after invoice |
-| **Duration** | Longitudinal: months on the same core, not six unrelated MVPs |
-| **Production** | You are the pager |
-| **Evidence** | Artifacts in §3.6, dated |
+#### Deep Command of a Primary Language
+- **Required depth:** Complete fluency in a primary systems language (such as TypeScript/Node.js or Python, with working familiarity in typed environments like Go or Java). Command of idioms, package ecosystems, memory management, testing harnesses, and runtime behavior.
+- **Why it matters:** Clean software architecture requires deep familiarity with your primary language's idioms and toolchains.
+- **Position & timing:** **Central.** Must be established from the beginning.
+- **Practical training:** Writing and maintaining Tower's entire backend and application stack.
+- **Competent execution:** Writing structured, readable, and maintainable application code.
+- **Excellent execution:** Structuring large codebases with clear module boundaries, strict type checking, robust automated tests, and predictable error handling.
+- **Demonstrated evidence:** A production codebase demonstrating clean module organization, consistent patterns, and comprehensive test coverage.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-**Hypothesis.** Two years of one core beats two years of twelve CRUD apps for every serious Plan C family in the 2026 scan except Implementation Consultant.
+#### Reading and Adapting to Secondary Languages
+- **Required depth:** The ability to read, navigate, and debug code in other popular enterprise languages (such as Java, C#, Go, or Ruby).
+- **Why it matters:** Large enterprises and financial institutions often maintain legacy systems in Java or .NET. A senior engineer must be able to inspect foreign codebases without friction.
+- **Position & timing:** **Supporting.** Can be cultivated gradually during Year 2 and formal degree studies.
+- **Practical training:** Reviewing open-source codebases, completing academic coursework, and inspecting client integration endpoints.
+- **Competent execution:** Reading a foreign framework repository and identifying its routing, data models, and business logic.
+- **Excellent execution:** Submitting clean pull requests or debugging live issues in an unfamiliar language and framework.
+- **Demonstrated evidence:** Academic coursework, contributions to third-party open-source projects, or client integration adapters.
+- **Optimal learning context:** **University studies and open-source contributions.**
 
-### 4.4 How to document
+#### Architectural Modularity and System Boundaries
+- **Required depth:** Command of domain-driven design principles, bounded contexts, hexagonal architecture, and modular monolith structures (following patterns from Shopify and GitLab).
+- **Why it matters:** Software complexity must be managed through clean internal boundaries rather than premature distributed networks.
+- **Position & timing:** **Central.** Must be practiced as soon as the core application expands beyond its initial feature set.
+- **Practical training:** Structuring Tower into distinct internal packages (such as `Pathways`, `EligibilityEngine`, `Monitoring`, and `ClientCommunication`).
+- **Competent execution:** Organizing application logic into sensible directories and namespaces.
+- **Excellent execution:** Enforcing strict boundary isolation between modules, preventing circular dependencies, and requiring components to communicate only through explicit public interfaces.
+- **Demonstrated evidence:** An application repository where functional domains are isolated in dedicated modules with verified, acyclic dependencies.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-Rewrite as you go, not at application time: ADRs, incidents, OpenAPI, case studies framed as correctness-under-failure, refusal log. Résumé line is engineering responsibility, not “Founder/CEO, Omcoda” (deep-pass §15.3).
+### 2.3 Backend and Core Systems Engineering
 
-### 4.5 Work to reject (custom-shop / weak continuity)
+```
+                             The Backend Spine In Practice
+                             
+   [Incoming Webhook] ──► [Idempotency Key Check] ──► [Database Transaction Boundary]
+                                                              │
+                                            ┌─────────────────┴─────────────────┐
+                                            ▼                                   ▼
+                                [Update Case State]                [Enqueue Next Job via Outbox]
+                                            │                                   │
+                                            └─────────────────┬─────────────────┘
+                                                              ▼
+                                                   [Commit & Emit Metrics]
+```
 
-- Unique application per brief (R2 betrayal).
-- CMS / Shopify / WordPress as the product.
-- Zapier/Make as system of record (R3 Chain A).
-- Vendor implementation as the business (R4 default Plan C = Implementation Consultant).
-- Linux “Systems Engineer” contracts (TMX trap).
-- Microservices/Kafka showcases for buyers who needed a form.
-- Single-client staff-aug that is a disguised FTE (CRA + no second customer).
+#### Domain Modeling and Formal Invariant Management
+- **Required depth:** Advanced skill in turning complex legal, financial, or operational rules into rigorous state models.
+- **Why it matters:** An application that permits contradictory or invalid states will eventually show false information to users and corrupt business operations.
+- **Position & timing:** **Central.** This is the technical core of the role.
+- **Practical training:** Modeling changing immigration rules and evaluation pathways within Tower.
+- **Competent execution:** Translating business requirements into relational tables and status flags.
+- **Excellent execution:** Designing state models where illegal state transitions are rejected by database constraints, type definitions, and thorough unit tests.
+- **Demonstrated evidence:** Comprehensive unit test suites verifying all valid and invalid state transitions, paired with schema constraints enforcing business invariants.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-### 4.6 Concrete examples
+#### Production Database Migration Strategies
+- **Required depth:** Mastery of zero-downtime database migration techniques, including expanding and contracting schemas, backfilling large datasets, separating structural changes from data transformations, and managing transaction locks during schema updates.
+- **Why it matters:** Production systems must evolve without losing data or causing service interruptions for active users.
+- **Position & timing:** **Central.** Must be practiced during the first production schema change.
+- **Practical training:** Evolving Tower's database schema as new immigration programs and data fields are introduced.
+- **Competent execution:** Applying database migration scripts via automated tooling during deployments.
+- **Excellent execution:** Authoring backward-compatible migrations with idempotent execution logic, phased schema rollouts, and verified zero-downtime deployment safety.
+- **Demonstrated evidence:** A linear migration history containing backward-compatible steps, column backfill operations, and documented schema change procedures.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-**Good Plan B (Inference).**
+#### Production Observability and Incident Triage
+- **Required depth:** Practical command of structured JSON logging, distributed context propagation (tracing request and job IDs across process boundaries), system metrics, and log aggregation.
+- **Why it matters:** When production issues arise, the engineer must be able to quickly trace the failure and understand the root cause from system logs.
+- **Position & timing:** **Central.** Must be introduced as soon as the application is deployed to production.
+- **Practical training:** Triaging real production exceptions, delayed background jobs, and malformed client payloads in Tower.
+- **Competent execution:** Inspecting application logs and server metrics to determine why a request failed.
+- **Excellent execution:** Emitting structured log events carrying complete business context (such as tenant ID, case ID, and worker run ID), configuring actionable alerts on operational failures, and authoring blameless post-incident reviews.
+- **Demonstrated evidence:** A collection of written post-incident reviews detailing root causes, immediate remediations, and systemic architectural improvements.
+- **Optimal learning context:** **Plan A (Omcoda).**
 
-1. A Toronto immigration firm pays a monthly fee for Tower to watch IRCC-shaped status and reopen dead files. You model pathways, write jobs, sit with a caseworker when a window is missed, change the schema, write the incident. **Object:** R5+R2+R3+R1 dose+R4-of-own-product.
-2. Same product, second firm, *no unique features* — a playbook change and a tenant. **Object:** product, not a shop.
-3. A scoped connector: Tower emits a webhook the firm's Clio can consume. Connector is periphery; core stays yours.
+### 2.4 Product Engineering Competencies
 
-**Bad / deceptively useful Plan B (Evidence-backed).**
+```
+The High-Leverage Product Loop:
+[Client Process Friction] ──► [Direct User Observation] ──► [Streamlined Workflow Design] ──► [Production Deploy]
+                                                                                                    │
+                                [Telemetry Verification] ◄── [Reduced Administrative Effort] ◄──────┘
+```
 
-1. **CA$40k custom portal** for one consultancy, handed off. Looks like full-stack. Plan C reads as agency work (R2 Chain A). Omcoda refusal broken.
-2. **HubSpot + Make** “automation practice,” five retainers. Cash is real. Plan C title is Automation Specialist / Implementation Consultant (R3 §5.1, R4 §5).
-3. **Freelance REST**: auth + Stripe + admin CRUD, six repos. R5 Chain B. Interviewers hear “I wrapped tables in Express.”
-4. **“Founding Engineer” for a friend's idea** with no users. Demo interview at Publicus fails (“No AI slop” / no thing).
-5. **TMX-style Linux contract** because the word “systems” matched. Craft becomes Route 1/IT.
-6. **Salesforce “FDE” self-study + certs** without production code. Type 2 SE path; Consensus-shaped years.
+#### Interface Design for Professional Operations
+- **Required depth:** Strong proficiency in modern web component architectures, state management, form validation, and data presentation.
+- **Why it matters:** The users of this software are administrative professionals managing complex, high-stakes tasks. The interface must be dense, clear, and reliable.
+- **Position & timing:** **Central.** Must be developed in Year 1.
+- **Practical training:** Building administrative workflows, audit dashboards, and operational forms for caseworkers in Tower.
+- **Competent execution:** Building clean, responsive web pages using modern frontend libraries.
+- **Excellent execution:** Designing efficient workflows optimized for data entry, providing clear client-side validation, maintaining optimistic UI updates, and handling network interruptions gracefully.
+- **Demonstrated evidence:** A production application interface that allows administrative users to manage complex cases efficiently without experiencing state synchronization errors.
+- **Optimal learning context:** **Plan A (Omcoda).**
+
+#### Operational Discovery and Scope Discipline
+- **Required depth:** The ability to observe users working, identify actual administrative bottlenecks, separate true business needs from superficial feature requests, and write concise functional specifications.
+- **Why it matters:** Building the wrong feature perfectly is the most common way to waste engineering effort. A product engineer must determine what is actually worth building.
+- **Position & timing:** **Central.** Must be practiced during every customer interaction.
+- **Practical training:** Working directly with immigration firms to identify how caseworkers track deadlines and manage follow-ups.
+- **Competent execution:** Listening to user requests and translating them into development tasks.
+- **Excellent execution:** Identifying the underlying operational constraint behind user requests, designing an elegant system-level solution, and firmly declining requests for bespoke, one-off features.
+- **Demonstrated evidence:** A documented log of product specifications paired with a record of declined feature requests, explaining why specific bespoke features were rejected to protect product integrity.
+- **Optimal learning context:** **Plan A and Plan B (Omcoda field work).**
 
 ---
 
-## 5. Plan C — exact employment destinations
+## 3. Plan A Requirements: Omcoda as a Production Laboratory
 
-Fresh posting-level detail lives in [`evidence/plan-c-market-2026.md`](evidence/plan-c-market-2026.md). Compressed here. Labour weather: Ontario/Toronto NOC 21232 **Limited / Very limited + surplus**; COPS 2024–2033 **BALANCE** (76,300 openings vs 98,900 seekers); Indeed Canada Aug 2025: software-engineer postings **−51%** vs early 2020; junior/standard titles **−25%**, senior **+5%**. Plan C is a picky market.
+```
+                         The Omcoda Production Flywheel
+                         
+[Legal / Regulatory Knowledge] ──► [Relational Domain Core] ──► [Tested Background Workers]
+             │                                                              │
+             ▼                                                              ▼
+[Standardized Client Playbooks] ◄── [High-Density Web UI] ◄── [Documented REST Contracts]
+             │
+             ▼
+[Live Production Operation] ──► [Operational Failures & Audits] ──► [Hardened System Invariants]
+```
 
-### 5.1 Product Engineer
+To function as a legitimate training ground that builds engineering credibility, Omcoda cannot simply be a collection of local prototypes. It must operate as a live production environment handling real-world business risks.
 
-**Actual job (Evidence).** Faire Brand PE: plan and build features end-to-end with product/design/data; 2+ years; BA **or equivalent**; CA$129.5–178k; Java/Kotlin/JS; Toronto/KW hybrid (https://boards.greenhouse.io/faire/jobs/8654106002). Ashby Senior PE remote-Canada: own projects including specs/wireframes; filter architecture that compiles to SQL; **no LeetCode**, pair in their repo; CA$195–248k; anti-junior team (https://jobs.ashbyhq.com/Ashby/272bc3f4-5af6-4c14-b797-a424b62d306c). Docebo Toronto uses the title for both PHP product work and Go/K8s automation. Linear (US/EU only): 5+ at a “high-quality software company.”
+### 3.1 Systems That Must Exist in Production
 
-**Canadian title reality.** Real at Faire/Docebo/Ashby. **Not** bank language. Wealthsimple does the job as **Software Developer — Product Engineering** (https://jobs.ashbyhq.com/wealthsimple/9f45d7bf-788e-456c-97d3-8fba8b88387d). Searching only “Product Engineer” under-counts.
+The following components must be deployed, running, and maintained:
+1. **The Core Domain State Engine:** A relational database managing pathway definitions, case timelines, document requirements, and status histories.
+2. **The Asynchronous Monitoring Service:** A dedicated worker process that wakes on schedule, checks active case files against external status indicators, evaluates eligibility windows, and schedules required actions.
+3. **The Communication and Reactivation Worker:** An automated system that drafts and dispatches client notifications, updates internal review queues, and records complete communication histories.
+4. **The Authenticated REST API:** An HTTP API that decouples core business logic from frontend presentation, using explicit contracts and automated contract-drift testing.
+5. **The Caseworker Management Interface:** An authenticated administrative portal where caseworkers review priority actions, update case data, and resolve exceptions.
+6. **The Tenant Security Layer:** Data architecture enforcing strict logical isolation across distinct client organizations, verified by automated multi-tenancy test suites.
+7. **The Ingestion Pipeline:** An automated pipeline that pulls and parses external status records, verifies payload integrity, and commits changes atomically.
 
-**Degree.** Equivalent clause is real at Faire/Docebo. Absent at Ashby/Linear. Banks: N/A (they do not use the title).
+### 3.2 Required Technical Complexity vs. Artificial Overhead
 
-**Plan B translation.** Continuous **if** Tower is end-to-end product + core (Faire “what is worth solving”; Ashby constraint-solver analog). **2 years clears Faire-shaped IC, not Docebo Senior 4+ / Ashby Senior / Linear 5+.** Gaps: team tenure, stack match (PHP/Go/Java), logo.
+```
+Legitimate Technical Complexity (Required):
+- Handling schema updates on live, populated database tables
+- Guaranteeing safe background job execution with at-least-once delivery
+- Enforcing strict tenant isolation across all database queries
+- Maintaining transactional consistency during third-party integration failures
 
-**Preserves combined architecture?** Faire/Ashby/Linear: yes, with a frontend-only *option* at Faire — filter JDs that never mention schema/jobs. Docebo Automation: no (backend/K8s specialization).
+Artificial Architectural Overhead (Avoid):
+- Deploying distributed Kubernetes clusters for early-stage applications
+- Introducing streaming event buses (Kafka) where database tables suffice
+- Splitting a unified domain into multiple microservice repositories
+- Implementing complex event-sourcing patterns where relational state is cleaner
+```
 
-### 5.2 Software Engineer / Software Developer
+**[Inference]** Professional competence is demonstrated by **restraint**. Introducing distributed microservices and container orchestration clusters to an early-stage application is a well-known anti-pattern. Experienced technical hiring managers view artificial complexity in small-scale systems as a lack of engineering judgment. The right technical standard is a **well-structured modular monolith running on stable virtual infrastructure**.
 
-**Actual job.** The Canadian default title for the same work. Wealthsimple Senior PE-org Developer: 5+ shipping production; “senior contributor **on a team**”; Rails + React; CA$151.2–189k; degree absent. Harvey Staff FS Toronto: 5+ **post-BS/MS**; CA$196.8–295k; no visa. RBC/BMO visible 2026 posts in the scan were **campus / enrollment-gated**, not experienced FTE.
+### 3.3 Required Production Conditions
 
-**Degree.** Job Bank 21232: bachelor's or college CS **usually required**; 77% of Ontario incumbents are university-level. Harvey counts years post-degree. Campus doors closed without enrollment.
+To generate legitimate engineering experience, the application must run under genuine operational constraints:
+- **Remote Production Hosting:** Running on managed cloud infrastructure with automated build and deployment pipelines.
+- **Live Historical Data:** Operating against a database that contains ongoing, historical case data, where schema migrations must preserve existing records.
+- **Real-World Exceptions:** Experiencing network dropouts, malformed third-party payloads, and process restarts that test system resilience.
+- **Verified Backup Restoration Drills:** Executing periodic restoration tests where the database is restored from cold backup storage to a fresh staging environment.
 
-**Plan B translation.** Mid Developer at a product company is the honest level. Senior WS/Harvey is under the posted years. Bank FTE: conceptually similar (regulated-adjacent story) not continuous (Java/.NET, years, envelope). **Gap:** collaboration evidence; Harvey's years formula under-counts a no-degree founder.
+### 3.4 Operational Responsibility and Real Users
 
-**Ontario title law.** PEO restricts “Software Engineer.” Prefer Developer / Product Engineer / Backend Developer on self-description. Enforcement uneven; banks still post Engineer.
+The engineer must carry actual operational responsibility:
+- **Serving Real Client Firms:** At least one active professional firm must use the system to track real cases with material business stakes.
+- **Holding the Pager:** The engineer must be directly responsible for monitoring system health, receiving alerts when workers fail, and resolving production bugs.
+- **Establishing Operational Targets:** Maintaining clear internal performance targets (for example, verifying that daily tracking runs complete within a defined morning window).
 
-### 5.3 Backend Engineer / Backend Developer
+### 3.5 Artifacts Generated for Career Evidence
 
-**Actual job.** In the 2026 GTA product sample, this label was **senior/platform**: Harvey Senior Backend CA$164–225k, 4+ post-BS/MS, auth/flags/notifications platform; Docebo Automation (PE title, backend work); Wealthsimple Cards (domain years). No junior Backend Engineer title fetched. Intermediate backend is usually posted as Software Developer.
-
-**Plan B translation.** Continuous if Tower's *backend is the product*. Discounted if résumé says microservices for one deployable. **Does not preserve full combined architecture** when the JD's first bullets are K8s/SLOs/DynamoDB.
-
-### 5.4 Full-Stack Engineer
-
-**Filter.** Only JDs that own API/schema/jobs *and* a surface. Wealthsimple PE-org, Faire, Harvey Staff FS, Ashby, Dimely founding (aggregator: C$100–120k, TypeScript, retries/idempotency, customer-facing — closest posted analog to Tower).
-
-**Risk.** Enterprise “full stack” can mean API + UI in a PM-heavy estate at low cash (Element Fleet index; posting unavailable on refetch). Junior full-stack is the 21234/agency cage.
-
-### 5.5 Founding Engineer
-
-**Actual job.** Seed / first-10. Publicus Toronto: “Founding Builder,” 2–6 years, CA$100–150k + **0.5–2%**, demo interview, **not customer-facing** (https://hire.publicus.ai/). Dimely: fourth hire, customer + architecture + production. Uniflow: 5+ ML — wrong family. Degree **absent** on every founding JD that loaded.
-
-**Plan B translation.** **Most literally in-distribution** if the demo is a live domain system. Cash near Job Bank high, below Faire/WS Senior — the bet is equity. **Gaps:** they want a #2 in the *room*, not another solo founder; Publicus amputates field; taking the job is leaving Omcoda.
-
-**Preserves combined architecture?** Dimely-shaped: yes. Publicus: builder, not TSO-complete. Uniflow: no.
-
-### 5.6 Forward-Deployed Engineer
-
-**Split first (Evidence).** Bloomberry n≈1,000 (updated 2026-01-25): 60% Type 1 Builder / 30% SE+ / 10% internal; feeders SWE 45%, SE 22%, **founder 8%**; mode 3–5 years (https://bloomberry.com/blog/i-analyzed-1000-forward-deployed-engineer-jobs-what-i-learned/). Tandem: use the output test; FDE titles grew 800%+ with relabeling (https://usetandem.ai/blog/fde-vs-implementation-engineer-vs-solutions-engineer).
-
-**Live Canada sample (thin).** Salesforce Toronto FDE: indexed Ontario base CA$95–145k (SE-band smell); body empty on fetch. Ethicrithm remote-Canada: Palantir-partner delivery. Palantir Toronto: closed. Palantir NY FDSE live: 1+ post-college, preferred STEM, USD $135–200k (https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0).
-
-**Plan B translation.** Continuous as **founder-FDE of Tower**. Conceptually similar to partner-FDE only with platform tenure you probably do not have. Palantir-by-default: no. Coding interview is the gate. **GTA true-FDE volume is not established** (deep-pass §14.6; scan §11).
-
-**Preserves combined architecture?** Type 1 at a small product company: closest employed TSO cousin, still amputates *owning* the product. Type 2: destroys it.
-
-### 5.7 Adjacent roles the evidence revealed
-
-| Title | Keep as destination? | Why |
-|---|---|---|
-| Implementation Consultant | No (as identity) | Default Plan C of off-object Plan B |
-| Cloud / Platform / SRE | Supporting competency; destination only if the JD is “operate our product,” not “pave roads” | R1 object is the account |
-| Analytics / Data Engineer | Destination only if Tower internals are a real store + tests + recon | R3 Chains B/C |
-| Web Developer (21234) | Cage | Official weather worse; AI/low-code drag |
-| Staff / Principal / bank senior | Not after 2 years | Floor across all routes |
-
-### 5.8 What Plan C develops that A/B cannot
-
-**Evidence + Inference.** Review culture; working in a mature codebase; collaboration that Wealthsimple can score; design-interview sport; a manager reference; sometimes a regulated envelope (if not a bank, still “on a team”). **It will also untrain** client diagnosis and Omcoda refusals if the company has separate CS/SRE (R2 §9.1, R5 §9.1). That is a feature of employment, not a reason to avoid Plan C.
-
-### 5.9 Realistic entry after strong Plan B + CS degree
-
-**Inference, not a promise.**
-
-| If Tower is real | Honest entry |
-|---|---|
-| Product company, equivalent-friendly | Intermediate Product Engineer / Software Developer (Faire-shaped). Not Ashby Senior, not WS Senior 5+ |
-| Founding seat | In-distribution on demo (Publicus 2–6) |
-| Bank / federal | Door *opens* (eligibility); screening is still DSA + stack; level junior-to-intermediate |
-| Type 1 FDE | Possible at a small product co if the loop is coding-heavy; not Palantir-default |
-| If Tower is thin | Junior Developer / Implementation / Automation — different occupation |
+Plan A must produce concrete, inspectable engineering artifacts:
+- **Database Schema and Migration Histories:** A clean git history of relational schema definitions, migrations, and constraint configurations.
+- **Automated Test Suites:** Complete unit and integration test suites validating state transitions, API endpoints, tenant boundaries, and job idempotency.
+- **Contract Specifications:** An OpenAPI contract verified by automated testing against running backend services.
+- **Incident and Root-Cause Analyses:** Written post-incident reviews documenting real production failures, immediate fixes, and subsequent architectural improvements.
+- **Operational Playbooks:** Technical runbooks outlining how to triage failed jobs, backfill data, and verify system recovery.
 
 ---
 
-## 6. B → C translation
+## 4. Plan B Requirements: The Independent Operator
 
-Rule: no match percentages. Continuous = same object. Conceptually similar = same words.
+```
+                               Plan B Commercial Integrity
+                               
+        Acceptable Independent Work                    Bespoke Traps to Reject
+  ┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐
+  │ • Managed Deployment of Tower Core   │     │ • Custom Agency Development Briefs   │
+  │ • Standardized Integration Modules   │     │ • Marketing Website & CMS Theming    │
+  │ • High-Stakes Operational Automation │     │ • Fragile Low-Code Workflow Glue     │
+  │ • Specialized Backend Staff Aug      │     │ • Proprietary Vendor Platform Config │
+  └──────────────────────────────────────┘     └──────────────────────────────────────┘
+                     │                                            │
+                     ▼                                            ▼
+           Compounds Toward Plan C                      Erodes Engineering Focus
+```
 
-| Plan B activity | Capability demonstrated | Artifact | Employer interpretation | Qualifying Plan C |
-|---|---|---|---|---|
-| Operate Tower for a paying firm: states, jobs, API, surface, incidents | Domain-core product engineering | State machine tests, migrations, incident notes, OpenAPI, users | “Shipped and operated a production system” (WS language) | Mid PE / Software Developer / domain-backend; founding demo |
-| Same, plus watched caseworkers and refused unique briefs | TSO + PE “what is worth solving” | Refusal log, playbook, session notes | Faire/Ashby PE; Dimely founding; Type 1 FDE feeder (8%) | Same + small-co FDE |
-| Operate Tower infra (deploy, IAM, restore, cost) | Supporting reliability | Restore test, compose, CI | Mid Cloud at a *product* company if you want it; else “they can ship” | Optional Cloud IC; not bank cloud |
-| Reconciliation + valid-time store | Operational truth | Recon job, grain ADR | AE / junior-mid DE *if* you want that slice | Not Staff Data Platform |
-| Freelance REST / Stripe / CRUD | Shipping to a deadline | Many repos | Agency Backend Developer; “wrapped tables” | Junior–low-mid; **not** Nue/Harvey |
-| Custom app to spec, handed off | Agency FS | Client folder | Web / 21234 / shop | Not PE |
-| HubSpot/Clio/Zapier retainers | Implementation | Go-lives | Implementation Consultant | That occupation |
-| Staff-aug on their product | Team + their stack | Manager ref, PRs | Continuous **at that company**; CRA if it looks like FTE | Convert, or next logo |
-| LeetCode-only | Interview theater | Profiles | Big Tech screen, no craft | Not this architecture |
-| Linux Systems Engineer contract | Infra/IT | TMX-shaped CV | Route 1/IT | Not PE/backend |
+Plan B must generate commercial income while building skills that transfer directly into Plan C engineering roles. It must avoid short-term revenue opportunities that pull focus toward low-level agency work.
 
-### 6.1 Where independent experience is discounted
+### 4.1 Viable Commercial Offerings
 
-**Evidence + Inference.**
+1. **Managed Core Operations:** Selling access to and managing Omcoda's proprietary software (Tower) for professional firms. The firm pays for an operational outcome (reliable deadline tracking and client reactivation), while the engineer retains full ownership of the software.
+2. **Standardized Integration Modules:** Installing and maintaining standardized software extensions that connect Tower to a firm's existing practice management systems.
+3. **Targeted Backend Engineering:** Providing focused backend development services to startups that already have technical leadership, specifically targeting database modeling, API development, or performance tuning.
 
-1. **Founder/CEO coding** — recruiter under-count (Hypothesis, consistent across files).
-2. **No team** — Wealthsimple Senior asks team tenure; review culture missing.
-3. **Years formulas** — Harvey “post-BS/MS”; 4–5+ seniors; Indeed junior collapse.
-4. **Stack** — PHP/Go/Java/Rails vs Tower in Node/Python.
-5. **Logo / “high-quality software company”** — Linear.
-6. **Theater résumé** — microservices/Kafka for one deployable (negative if the reader can tell).
-7. **Empty education at bank Workday** — campus is enrollment-gated; FTE box **not directly observed** in the 2026 scan.
-8. **Title “Product Engineer” at a bank ATS** — they hire Developers.
+### 4.2 Work That Must Be Firmly Rejected
 
-### 6.2 What makes it more legible
+- **Custom Software Agency Contracts:** Agreeing to build arbitrary custom web applications from client specifications. This turns the operation into a services agency and fractures focus.
+- **Low-Code Automation Chains:** Setting up fragile, unmonitored automations using tools like Zapier or Make as the core database of a business.
+- **Content Management Site Building:** Developing custom marketing sites or e-commerce themes.
+- **Enterprise IT System Administration:** Taking contracts to configure enterprise directory services, corporate firewalls, or desktop infrastructure.
 
-- Résumé as **responsibilities + artifacts**, not company narrative.
-- Public professional-quality repo (or a shareable core) matching artifact memo §7.
-- Case study: correctness under failure, not stack list.
-- One external review (OSS PR or staff-aug) to blunt the team gap.
-- Degree in progress/complete for bank/gov doors.
-- Parallel DSA/system-design block if Big Tech / some SWE loops stay in scope (deep-pass §15.4).
-- Title translation: “Software Developer — production eligibility systems,” not “Founder / Full-Stack / FDE.”
+### 4.3 Practical Examples: Constructive vs. Distracting Work
+
+#### Constructive Plan B Projects
+- **Example 1: Retaining an Immigration Practice on Tower.** A legal firm pays a recurring monthly fee for Tower to monitor active client cases. The engineer configures the firm's account, maps their case categories into standard pathways, monitors tracking jobs, resolves edge cases, and improves the software based on caseworker feedback.
+  *Why it works:* Generates recurring commercial income, provides direct user feedback, exercises operational responsibilities, and keeps technical focus on the core system.
+- **Example 2: Building a Resilient Integration Adapter.** A client firm needs their practice management software synchronized with Tower. The engineer writes a standalone, containerized integration service that consumes webhooks, manages rate limits, and persists changes through Tower's API.
+  *Why it works:* Involves writing real code, managing network failure modes, and reinforcing the primary product's integration boundaries.
+
+#### Distracting Plan B Projects
+- **Example 1: The Bespoke Client Portal.** A consultancy offers CA$40,000 for a custom-built client intake platform with unique, client-specified features.
+  *Why it fails:* Traps the engineer in custom agency work, fractures focus, and produces a one-off codebase that cannot be leveraged across other firms.
+- **Example 2: The Multi-App Automation Retainer.** An accounting firm hires the engineer to link their CRM, email, and invoicing tools using multi-step Zapier workflows.
+  *Why it fails:* Produces brittle workflows with no formal database modeling, automated testing, or source-controlled code, offering zero technical continuity with software engineering.
+- **Example 3: Enterprise Systems Infrastructure Maintenance.** A mid-sized firm offers a lucrative contract to manage internal Linux servers, backup configurations, and network permissions.
+  *Why it fails:* Pulls the engineer into general IT systems administration, leaving no time to develop application software.
 
 ---
 
-## 7. Employment-market reality
+## 5. Plan C: Exact Employment Destinations
 
-See [`evidence/plan-c-market-2026.md`](evidence/plan-c-market-2026.md) for posting-level tables. Cross-cut:
+```
+                     Plan C Target Alignment & Market Realities
+                     
+          Target Family             Alignment Score                Market Reality
+  ┌───────────────────────────────┬─────────────────┬─────────────────────────────────────────┐
+  │ Product Engineer (Modern SaaS)│  Optimal Match  │  2+ YOE at Faire; Senior requires 5+;   │
+  │                               │                 │  Values end-to-end product ownership.  │
+  ├───────────────────────────────┼─────────────────┼─────────────────────────────────────────┤
+  │ Software Developer (Canada)   │  Strong Match   │  Standard title in Canadian tech/banks; │
+  │                               │                 │  Wealthsimple asks 5+; Mid is viable.   │
+  ├───────────────────────────────┼─────────────────┼─────────────────────────────────────────┤
+  │ Founding Engineer (Seed Stage)│  High Leverage  │  0.5-2% equity; demo-based interviews;  │
+  │                               │                 │  Directly values solo operator agency.  │
+  ├───────────────────────────────┼─────────────────┼─────────────────────────────────────────┤
+  │ True Forward Deployed (Type 1)│ Selective Match │  High bar; coding-heavy; scarce in GTA; │
+  │                               │                 │  30% of postings are rebranded pre-sales│
+  └───────────────────────────────┴─────────────────┴─────────────────────────────────────────┘
+```
 
-**Stated vs preferred vs hard (Inference across families).**
+The 2026 Canadian labor market scan (`evidence/plan-c-market-2026.md`) provides concrete benchmarks across our primary Plan C target families.
 
-| Gate | Stated often | Preferred | Hard in practice |
+### 5.1 Product Engineer (Modern Product SaaS)
+
+#### Nature of the Work
+Product Engineers work in cross-functional product squads, owning features end-to-end. They write backend services, design application workflows, build user interfaces, and monitor features in production.
+
+#### Concrete Market Postings
+- **Faire (Kitchener-Waterloo / Toronto):** Product Engineer (Brand). Base salary CA$129,500 to CA$178,000 plus equity. Minimum qualification: 2+ years of experience; bachelor's degree in Computer Science or equivalent practical industry experience. Responsibilities: planning and building features across the stack, working directly with product, design, and data teams.
+- **Ashby (Remote Canada):** Senior Product Engineer. Base salary CA$195,000 to CA$248,000 plus equity. Focuses on broad project ownership without heavy management layers. The technical interview focuses on collaborative pairing within their actual production codebase rather than abstract whiteboard puzzles.
+
+#### Degree Mechanisms and Evaluation
+The degree functions primarily as an initial resume filter. However, progressive product organizations like Faire explicitly state an "or equivalent practical industry experience" alternative. A candidate who presents a verified, production-grade application with clean architecture can successfully clear the resume screen.
+
+#### Experience Translation and Gaps
+- **How Plan B translates:** Translates smoothly if the candidate can demonstrate end-to-end ownership of Tower, discussing real user workflow friction, schema migrations, and operational debugging.
+- **Remaining gaps:** Independent operators lack documented experience working within large, multi-person engineering teams or participating in formal peer code review processes.
+
+### 5.2 Software Engineer / Software Developer (Canadian Tech & Finance)
+
+#### Nature of the Work
+The standard engineering title across the Canadian technology landscape. In product-driven firms like Wealthsimple, this role mirrors Product Engineering. In large financial institutions, it typically involves building and maintaining focused platform services within larger enterprise architectures.
+
+#### Concrete Market Postings
+- **Wealthsimple (Remote Canada / Toronto):** Senior Software Developer — Product Engineering. Base salary CA$151,200 to CA$189,000 plus equity. Requires 5+ years of experience shipping production software and operating as a senior contributor on an engineering team. Stack centers on Ruby on Rails and React.
+- **RBC / BMO Technology Divisions:** Standard software developer requisitions. Campus co-op programs are strictly gated by post-secondary enrollment. Full-time postings consistently specify a bachelor's degree in Computer Science or a related technical discipline.
+
+#### Degree Mechanisms and Evaluation
+In major Canadian banks and legacy institutions, the degree is a **firm institutional gate**. Automated recruitment systems screen for accredited technical credentials, and non-degree holders face significant friction. In technology-first companies, practical production experience can often substitute for formal credentials.
+
+#### Experience Translation and Gaps
+- **How Plan B translates:** Translates well to modern technology firms where systems ownership is valued.
+- **Remaining gaps:** Large financial institutions evaluate candidates against enterprise language requirements (such as extensive Java or .NET enterprise experience) and formal enterprise change management procedures.
+
+### 5.3 Founding Engineer (Early-Stage Startups)
+
+#### Nature of the Work
+Joining a venture-backed startup as one of the first technical employees (typically among the first five hires). The role demands broad capability: designing core systems, shipping fast user interfaces, setting up deployment infrastructure, and speaking directly with early customers.
+
+#### Concrete Market Postings
+- **Publicus (Toronto):** Founding Builder. Base salary CA$100,000 to CA$150,000 plus 0.5% to 2.0% equity. Requires 2 to 6 years of experience building products, with high proficiency in modern development tools. The technical interview centers on demonstrating a real, working system the candidate built.
+- **Dimely (Toronto / YC S24):** Founding Engineer (Full-Stack). Base salary CA$100,000 to CA$120,000 plus equity. Involves end-to-end ownership: speaking with clients, designing architecture, shipping code, and monitoring production health.
+
+#### Degree Mechanisms and Evaluation
+The formal degree is **largely irrelevant** in seed-stage startups. Founders screen for velocity, competence, and evidence that the engineer can ship reliable software independently.
+
+#### Experience Translation and Gaps
+- **How Plan B translates:** This is the most direct translation of the independent operator archetype. The experience of running Omcoda independently matches early-stage startup demands.
+- **Remaining gaps:** The primary gap is organizational: founders want reassurance that the candidate can execute collaborative team priorities rather than pursuing solo founder habits.
+
+### 5.4 Forward-Deployed Engineer (Type 1 Builder)
+
+#### Nature of the Work
+True forward-deployed engineering (originating at companies like Palantir) embeds technical builders directly alongside customer operations to write production software, build complex integrations, and feed operational learnings back to core product teams.
+
+#### Concrete Market Postings
+- **Palantir Technologies (New York / Global):** Forward Deployed Software Engineer. Base salary USD $135,000 to USD $200,000 plus equity. Requires 1+ years of post-college software development experience. Evaluated through intensive software engineering and system decomposition interviews.
+- **Enterprise Partner Ecosystems:** Organizations like Salesforce and its implementation partners increasingly advertise FDE positions. However, empirical analysis confirms that many of these are traditional pre-sales engineering or vendor configuration jobs rebranded to match market trends.
+
+#### Degree Mechanisms and Evaluation
+Top-tier technology firms offering true FDE positions enforce rigorous technical interview bars focusing on data structures, algorithmic complexity, and system design. While formal technical degrees are preferred, demonstrating high-level software competence is the deciding factor.
+
+#### Experience Translation and Gaps
+- **How Plan B translates:** Directly matches the operational discovery and field diagnostic experience gained through Plan A and Plan B.
+- **Remaining gaps:** Passing competitive technical screening loops requires rigorous, dedicated algorithm and data structure preparation that is not practiced during everyday product development.
+
+---
+
+## 6. Concrete B $\rightarrow$ C Translation Chains
+
+```
+                               Defensible B ──► C Pathways
+                               
+  Plan B Activity:
+  Operates Tower Core in Production ──► Manages Schema Invariants & Asynchronous Workers
+                                                   │
+                                                   ▼
+  Tangible Engineering Artifacts:
+  Constraint Migrations ──► Idempotent Job Suites ──► OpenAPI Contract ──► Incident Audits
+                                                   │
+                                                   ▼
+  Plan C Market Reception:
+  Validated as Intermediate Product Engineer / Core Systems Developer (e.g., Faire, Wealthsimple)
+```
+
+To transition smoothly from independent operations into full-time engineering, the work performed in Plan B must generate evidence that hiring managers recognize.
+
+### Legitimate Translation Chains
+
+#### The Domain Core to Product Engineer Chain
+- **Plan B Activity:** Operating Tower for paying immigration firms. Modeling pathway requirements, managing database constraints, writing background workers, and shipping user-facing administrative tools.
+- **Underlying Competence:** Full-stack product development anchored by database integrity and operational discipline.
+- **Inspectable Artifacts:** Relational migration histories with explicit column constraints, unit tests covering state transition logic, and integration tests verifying background job idempotency.
+- **Hiring Manager Evaluation:** Evaluated as a software engineer who can build and operate reliable product features independently.
+- **Target Role & Band:** Intermediate Product Engineer or Software Developer (e.g., Faire IC2, Wealthsimple Mid-Level).
+
+#### The Operational Field Loop to Founding Engineer Chain
+- **Plan B Activity:** Working directly with administrative firms to isolate operational friction, building focused software to solve it, and declining bespoke custom development requests.
+- **Underlying Competence:** High autonomous execution, disciplined scope management, and direct customer alignment.
+- **Inspectable Artifacts:** A production application serving active users, accompanied by product specification notes detailing why certain bespoke features were rejected.
+- **Hiring Manager Evaluation:** Evaluated as an autonomous technical builder capable of shipping impactful product features from day one.
+- **Target Role & Band:** Founding Engineer at a venture-backed seed or Series A startup.
+
+### Weak or Misleading Translation Chains
+
+#### The Generic Freelance Web Development Trap
+- **Plan B Activity:** Building custom websites, online storefronts, or promotional web applications for local clients.
+- **Resulting Perception:** Evaluated as a surface-level web developer (NOC 21234).
+- **Plan C Impact:** Fails to qualify the candidate for modern product software engineering or backend development roles.
+
+#### The Low-Code Automation Trap
+- **Plan B Activity:** Building automated notification and workflow sequences using Zapier, Make, or HubSpot.
+- **Resulting Perception:** Evaluated as an internal tools specialist or low-code administrator.
+- **Plan C Impact:** Carries no weight in software engineering technical interviews; viewed as non-technical operational configuration.
+
+#### The Premature Infrastructure Trap
+- **Plan B Activity:** Spending months configuring multi-node Kubernetes clusters, service meshes, and complex cloud tooling for an early-stage app.
+- **Resulting Perception:** Evaluated as an inexperienced developer over-engineering basic systems without understanding business priorities.
+- **Plan C Impact:** Fails senior infrastructure interviews due to a lack of large-scale corporate experience; fails product engineering interviews due to a lack of product focus.
+
+### Overcoming the Solo Operator Discount
+
+```
+Transforming Solo Operator Experience into Legitimate Engineering Proof:
+"Founder & CEO" Narrative ──► Under-Counted as Ambiguous Business Administration
+                                                 │
+                                                 ▼ (Restructure)
+Explicit Technical Ownership ──► "Primary Systems Engineer: Relational Core, Jobs, Operations"
+                                                 │
+                                                 ▼ (Provide Evidence)
+Inspecting the Work ──────────► Clean Git Commits, Formal Schemas, Test Suites, Post-Mortems
+```
+
+1. **Focus on Technical Contributions, Not Executive Titles:** On resumes and professional profiles, describe the work as **Primary Software Engineer** or **Systems Operator**. Detail technical responsibilities—relational modeling, API design, background workers, and deployment automation—rather than general startup management tasks.
+2. **Present Clean, Inspectable Repositories:** Maintain public repositories or code samples that demonstrate professional standards: clear module separation, comprehensive test suites, linear database migrations, and clean documentation.
+3. **Document Production Incidents Professionally:** Write clear post-incident reviews describing real operational challenges: what broke, how it was diagnosed, the immediate remediation, and the structural code changes introduced to prevent recurrence.
+4. **Demonstrate Open-Source Collaboration:** Make meaningful pull requests to established open-source projects or contribute to shared industry tools to provide third-party proof that you can collaborate effectively within existing codebases.
+
+---
+
+## 7. Current Employment Market Realities
+
+The comprehensive 2026 labor market analysis (`evidence/plan-c-market-2026.md`) highlights key trends across the Canadian and Greater Toronto Area hiring landscape:
+
+### 7.1 General Labor Conditions
+- **Official Outlooks:** The Canadian government's Job Bank classifies the 2025–2027 employment outlook for Software Developers (NOC 21232) in the Toronto economic region as **Very Limited**, citing recent employment contractions and limited retirement turnover.
+- **Hiring Trends:** Data from Indeed Hiring Lab confirms that overall software development job postings remain significantly depressed compared to pre-2020 peaks. Crucially, the contraction has affected entry-level and junior postings disproportionately (-25%), while postings for senior and specialized contributors have held steady or grown (+5%).
+- **Implication:** The market has little patience for generic, surface-level credentials. Candidates must demonstrate deep, verifiable technical competence to stand out.
+
+### 7.2 Evaluating Common Hiring Filters
+
+| Requirement Type | Stated Postings Language | How Organizations Actually Screen | How to Successfully Clear the Gate |
 |---|---|---|---|
-| Degree | Job Bank “usually”; Faire/Docebo “or equivalent”; Ashby/founding absent; Harvey years post-BS/MS; bank campus enrollment | CS tokens | Campus = enrollment. Equivalent clause is real at some product cos. Bank FTE education box unobserved this pass |
-| Years | Faire 2+; everyone else 4–5+ or anti-junior | “Shipped SaaS,” “on a team” | 2 years only clears Faire-shaped IC and founding 2–6. Senior product is 4–5+ |
-| Stack | Language pinned at Docebo/Faire; “retrain” at Ashby/WS | AI-agentic coding now **stated** | Language match is a screen at PHP/Go shops |
-| Domain | Cards = payments years; Harvey = legal SaaS | Regulated comfort | Tower ≠ card rails. Tower *is* closer to Dimely's “messy rules → validated state” |
-| Interview | Ashby no-LC pair+product; Docebo system design; Publicus demo; Google-class DSA (prior evidence, not re-fetched as live FTE) | Production walkthrough | Theater is a separate ticket |
-
-**Employer types that preserve the combination:** Canadian and Canada-hiring *product* companies (Faire, Wealthsimple PE-org, Ashby, Dimely-shaped founding).  
-
-**Employer types that force specialization:** Cards/payments; Docebo Automation/K8s; bank Developer buckets; partner-FDE; 21234 web; ML founding.
-
-**Industries that fit the domain story:** fintech (regulated-adjacent carefulness — asset *or* liability, unmeasured), legal-AI (Harvey), vertical SaaS, immigration-tech analogs. Banks: access later via degree, stack gap remains.
+| **Formal Degree** | Most bank and enterprise postings list a bachelor's degree in Computer Science as "required." Modern product tech companies typically state "or equivalent practical experience." | Large enterprise portals use automated keyword filters to screen applicants. Technology companies evaluate the depth of technical portfolios and real-world system ownership. | Target modern product organizations for early career moves where practical system competence is valued. Use completion of the degree to clear corporate enterprise filters later. |
+| **Years of Experience** | Standard product engineering roles ask for 2+ years. Senior engineering roles consistently ask for 5+ years. | Hiring managers assess the actual scope of systems ownership, technical autonomy, and architectural maturity. | 2 years of deep, verifiable production operations can qualify a candidate for mid-level product engineering positions (e.g., Faire IC2), bypassing junior tracks. |
+| **Technology Stacks** | Specific languages are often highlighted (e.g., Rails at Wealthsimple, Go at Docebo, Java at banks). | Technology-first organizations readily cross-train developers who demonstrate deep fundamental systems competence. Legacy enterprise organizations enforce stack match requirements strictly. | Master primary architectural fundamentals deeply in one language; develop reading and debugging fluency in common enterprise languages (Java, Go). |
+| **AI Development Tools** | Leading product companies (Faire, Wealthsimple, Publicus) now explicitly expect familiarity with modern AI development tooling. | Evaluated during technical interviews to confirm the candidate uses tooling responsibly to accelerate shipping velocity without introducing low-quality code. | Use development tools effectively while maintaining deep architectural control and testing discipline over the generated code. |
 
 ---
 
-## 8. Repository / artifact investigation
+## 8. Professional Repository and Artifact Standards
 
-Full memo: [`evidence/artifact-quality.md`](evidence/artifact-quality.md).
+```
+                                  The Repository Standard
+                                  
+        Portfolio-Grade Project (Inadequate)          Professional-Grade System (Required)
+  ┌──────────────────────────────────────────┐     ┌──────────────────────────────────────────┐
+  │ • Simple CRUD controllers                │     │ • Decoupled domain models & state logic  │
+  │ • Fleeting demo data seeded in memory    │     │ • Versioned, linear database migrations  │
+  │ • Ephemeral background tasks             │     │ • Persistent, idempotent worker jobs     │
+  │ • Static OpenAPI documentation           │     │ • Automated CI contract-drift validation │
+  │ • Generic setup instructions             │     │ • Concrete post-incident reviews & fixes │
+  └──────────────────────────────────────────┘     └──────────────────────────────────────────┘
+```
 
-**Architecture actually used (Evidence).** Monolith first (Fowler); modular monolith when people-scale hurts (Shopify, GitLab); merge-back from microservice tax (Segment/Twilio); majestic monolith (37signals). Jobs as operable effects (Solid Queue; Sidekiq; BullMQ), not Kafka-as-identity.
+The benchmark review of mature open-source codebases (`evidence/artifact-quality.md`)—including Chatwoot, Cal.com, Twenty, and Ghost—defines what separates amateur portfolio projects from production software:
 
-**Repos inspected.**
-
-| Repo | What “professional” looks like |
-|---|---|
-| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | Rails monolith; `app/jobs` + Sidekiq queues; Pundit `app/policies`; swagger + Skooma drift CI; 16-way RSpec on Postgres/Redis |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | Prisma migrations; feature packages; Trigger.dev Tasker with **sync fallback**, Zod, retry; sharded Playwright/Jest; path-filtered CI |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | API + BullMQ worker + CLI; CI fails on uncommitted migrations and OpenAPI/GraphQL breaking changes; worker smoke |
-| [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Migration-review workflow: idempotent `up`/`down`, no mixed DDL/DML |
-
-**Portfolio vs professional (Inference).** Portfolio proves you can assemble a stack. Professional proves the system can be changed, operated, and not lie. Center of gravity: invariants, migrations, jobs, contract CI, authz, users — not README screenshots.
-
-**1-person bar vs FAANG bar.** Structured logs, worker errors, one business alert, restore-tested backups, ASVS L1 authz, CI against real Postgres. Not SLO burn-rate matrices or a platform golden path.
-
-**Normative bar this architecture adopts** (artifact memo §7): one deployable; schema is history; invariants are tests; jobs are effects with keys; API is a contract; authz is server-side; operability you have used; at least one real user. Anything else is decoration.
-
----
-
-## 9. Mastery horizon
-
-Elapsed time ≠ seniority. These are **observable ownership tests**. They assume Plan A is real. If Tower is a prototype, the clock has not started (deep-pass §14.1).
-
-### ~6 months
-
-A language, a schema, an API, a worker, CI, compose. One journey authenticates, persists, stays up. Maybe no paying user yet. **Still glue if the domain is shallow.** Supporting cloud/data/field are embryonic. DSA not required yet.
-
-### ~1 year
-
-R5/R2 1-year object: one bounded context in production — schema, HTTP API, job runner, authz, logs you read; a product surface a human finished; migrations that did not destroy data; OpenAPI that matches; **one real consumer**; one incident note. Modular monolith, no theater. Field: one discovery → schema story. **This is the gate.** Below it, Plan C is junior/agency.
-
-### ~2 years (end of planned Plan B)
-
-Invariants under some failure (crashed worker, duplicate webhook, partial migrate) as *operational* stories. A playbook. A refusal log. Instrumentation on the CUJ. Maybe a second firm on the same product. Résumé can be rewritten as engineering. **Honest Plan C:** intermediate PE / Software Developer / founding demo. **Not:** Senior 5+, Staff, bank FTE, Palantir FDSE. Degree-in-progress may be opening campus/eligibility. Interview theater is a parallel block if those employers are in scope.
-
-### ~3–5 years
-
-Either (a) Omcoda is a domain core several surfaces share, or (b) Plan C IC ownership of a bounded context others cannot casually break. Optional event log because a second consumer appeared. Title translation: Senior Backend / Senior Software Developer / Product Engineer at a product company. **Still not Principal.** If these years were CRUD, Zapier, or CMS, you are still on year-1's object (R3; R5 Chain B). Team review now exists if Plan C or serious OSS happened.
-
-**Principal / Staff-plus (decade-class, not this plan's promise).** Larson Architect: direction of a critical domain (https://staffeng.com/guides/staff-archetypes/). Requires org influence the 1-person firm cannot fake and two years cannot produce (R5 §4.2).
+### 8.1 Structural Standards for Production Repositories
+1. **Separation of Domain State from Application Delivery:** Core business logic and state machine definitions must live in clean, decoupled modules rather than inside web controllers or API routing handlers.
+2. **Linear, Tested Migration Histories:** Database schemas must be managed through version-controlled migration files that have run against real persistent databases. Migrations must be designed to run safely against populated tables without downtime.
+3. **Idempotent Background Task Handlers:** Asynchronous background jobs must require unique idempotency keys, enforce deterministic deduplication, and handle transient failures with explicit retry and dead-letter queue policies.
+4. **Automated API Contract Verification:** OpenAPI specifications must not be static documentation that drifts over time. Continuous integration pipelines must test the running API against the written contract on every build.
+5. **Contextual Structured Logging:** Application logs must be emitted as structured JSON containing comprehensive execution metadata (including tenant IDs, case IDs, and trace IDs) to facilitate production debugging.
+6. **Explicit Tenant Boundary Testing:** Systems handling multi-tenant data must include dedicated automated integration tests verifying that tenant records cannot be accessed across organizational boundaries.
 
 ---
 
-## 10. Final architecture
+## 9. Realistic Mastery Horizons
 
-### Central craft
+```
+                                  The Competency Timeline
+                                  
+     6 Months                  1 Year                   2 Years                  3 - 5 Years
+┌────────────────┐      ┌─────────────────┐      ┌──────────────────┐      ┌───────────────────┐
+│ Basic Working  │ ──►  │ Bounded Context │ ──►  │ Failure-Hardened │ ──►  │ Subsystem         │
+│ Core: Monolith,│      │ in Production:  │      │ Operator: Active │      │ Leadership:       │
+│ Schema, Async  │      │ Live Migrations,│      │ Clients, Verified│      │ Bounded Contexts, │
+│ Task Execution │      │ Invariant Tests │      │ Invariants, Pager│      │ Team Mentorship   │
+└────────────────┘      └─────────────────┘      └──────────────────┘      └───────────────────┘
+```
 
-**Software / Product Engineering that exists to express a domain core** — not screens, not tickets, not CMS. Greatest mastery investment: making a valuable journey true in software people use, and iterating it while it is alive.
+Progression is measured by demonstrated system ownership, not calendar time.
 
-### Technical spine
+### Six Months: The Working Monolith
+- **System Capabilities:** A functional modular monolith deployed to a cloud environment. The database schema enforces basic relational constraints, an asynchronous worker processes simple background tasks, and an authenticated API serves a clean web interface.
+- **Production Status:** Running in a staging or early production environment. May still rely on synthetic or early test data.
+- **Identifiable Gaps:** Has not yet executed zero-downtime database migrations against large, active datasets; limited operational experience triaging production edge cases.
 
-**Backend / Systems:** domain model, schema, transactions, APIs, jobs, authz, failure, observability. This is what “consequential” means. Without it, Product Engineering collapses to generic full-stack.
+### One Year: The Production Bounded Context
+- **System Capabilities:** A fully operational bounded context supporting active administrative users. Database schema migrations run smoothly against live data, asynchronous workers enforce strict idempotency, and APIs are validated by automated contract tests.
+- **Production Status:** Serving at least one real professional firm handling active business cases. The engineer holds the pager and resolves production errors.
+- **Identifiable Gaps:** Has not yet managed complex, cross-system distributed failure states; engineering practices have been exercised primarily in solo environments without formal peer code review.
 
-### Supporting capabilities (ceilings)
+### Two Years: The Resilient System Operator
+- **System Capabilities:** A mature software system that has adapted to evolving real-world requirements. The codebase exhibits clear domain module boundaries, comprehensive test coverage of edge-case state transitions, and verified database restoration procedures.
+- **Production Status:** Multiple active client accounts running on the primary product. The engineer maintains a documented history of production incidents, architectural decisions, and rejected bespoke feature requests.
+- **Career Marketability:** Qualified for intermediate Product Engineering, Backend Systems, and Founding Engineer positions at modern technology firms (e.g., Faire IC2, venture-backed startups).
 
-| Capability | Required depth | Identity to refuse |
-|---|---|---|
-| Cloud / Infra | Deploy, IAM, restore, logs, one alert, boring cloud, CI | Platform / K8s / SRE-of-scale |
-| Data / Automation | Grain, time, recon, jobs as activation, SQL | Zapier mill; warehouse/Spark identity |
-| Frontend | Journeys + instrumentation | Framework fashion; 21234 |
-| Field | Diagnosis, playbook, refusal, user observation | Implementation Consultant; Type 2 FDE; SE |
-
-### Plan A function
-
-Omcoda is the **studio**: the only realistic pre-degree way to own a core rather than a periphery (R5 §7.2). It compounds the craft when hours go to invariants, product journeys, and operability. It taxes the craft when hours go to Kubernetes-for-one, unique briefs, or UI-without-model.
-
-### Plan B function
-
-Independent operation exists to produce **users, incidents, longitudinal ownership, and cash without changing occupation**. The viable offer is operated Tower (and periphery that serves it). Off-object cash is a labeled runway, not the plan.
-
-### Plan C function
-
-The CS degree expands **eligibility and screening** (banks, federal, some ATS, campus/co-op, DSA reps). It does not create the capability. Employment surface to optimize for: **product-company mid IC** (Product Engineer / Software Developer / domain-backend) and **founding-engineer demo screens**. Optional: Type 1 FDE if the loop is engineering. Not the primary aim: Cloud/Data/Solutions identities, bank senior, Staff.
-
-**Desired transition (supported as Inference, conditional on Tower):**  
-Plan B operator of a live domain product → same object + degree as key → expanded mid-IC surface.  
-
-**Unsupported transition:** Plan B custom-shop/Zapier/CMS → graduate → start an unrelated Plan C as if the years counted.
-
-### Requirements map (inventory)
-
-**Central, year-1:** one language; SQL; domain model; schema+constraints+migrations; HTTP API; authz/tenancy; transactions; idempotent jobs; tests (state machine + job-twice); CI; deploy/restore; thin product surface; structured logs; one user; one incident.
-
-**Central, ongoing:** field diagnosis; refusal of briefs; instrumentation; migration-in-anger; case studies as correctness-under-failure.
-
-**Supporting, timed:** boring cloud/IAM/cost; recon jobs; integrations as periphery; frontend sufficient for journeys; ASVS L1; ADRs/runbooks.
-
-**Parallel, for Plan C access:** DSA + system-design theater; degree credentials; second-language *reading*; one external team signal (OSS or staff-aug).
-
-**Out:** CMS identity; Zapier identity; vendor-consultant identity; Linux Systems Engineer identity; DS/ML identity; microservices theater; K8s-for-one; Staff-in-two-years; Technical PM.
-
-**Dependencies:** §2.8. Gate: first real user + incident + live migration before adding supporting identities.
-
-### Challenges that survive this pass
-
-1. Combination is **capability architecture**, not a job title — employers hire slices.
-2. Plan B **cash attractors** (custom, glue, vendor impl) fight the center.
-3. Employed Plan C **amputates** TSO client diagnosis.
-4. **Founder discount**, team-tenure gates, and post-BS/MS year formulas will under-count.
-5. **Interview theater** is a separate ticket from Tower.
-6. **Stack provincialism** (Java/Spring, PHP, Rails) vs a Node/Python Tower.
-7. GTA **Very limited** weather — artifacts must be professional, not portfolio.
-8. All continuous chains are **conditional on Tower actually being a core**.
-
-### Open questions (before Character Architecture)
-
-Load-bearing; do not paper over:
-
-1. **Tower artifact inspection** against the 1-year tests (§9) and artifact memo §5. Until then Character Architecture would be designing a person for a laboratory that may not exist.
-2. **Will GTA professional-services firms buy operated proprietary software** vs Clio+Zapier+impl? Conversion, ACV, cycle unknown.
-3. **Can this subject close Plan B** at all, pre-degree? Rate cards ≠ a pipeline.
-4. **Workday education-box behaviour** for *experienced* Canadian bank Developer reqs.
-5. **Founder-discount survival rate** after 2 years of 1-person production (Bloomberry 8% feeder shows possibility, not rate).
-6. **GTA Type-1 FDE volume** as a time series.
-7. **Java/Spring as hard gate vs preference** at Toronto product companies outside banks.
-8. **Immigration-data as asset vs liability** (cannot show the code).
-9. **School choice / part-time feasibility** while operating Plan A — out of prior scope, now blocking if the degree is on the critical path for bank/gov.
-10. **Tax / corp / IRAP / SR&ED** effects on Plan B leverage in Ontario.
-11. **Whether “Product Engineer” remains a stable Canadian title** or stays a small SaaS cluster.
-12. **Personal primitive depth today** — this file states requirements, not a skills inventory of the subject.
+### Three to Five Years: Subsystem Ownership and Scale
+- **System Capabilities:** Managing multiple interconnected business contexts or leading a significant product subsystem within a larger software organization. Capable of designing internal developer abstractions, mentoring engineers, and planning multi-stage database and architectural migrations.
+- **Production Status:** Maintaining high-volume production services, defining operational service-level objectives, and managing complex integrations with external enterprise systems.
+- **Career Marketability:** Fully qualified for Senior Product Engineer and Senior Backend Developer roles across both modern product SaaS companies and mature enterprise institutions.
 
 ---
 
-## What this file is for next
+## 10. The Final Architecture
 
-Character Architecture needs: an environment (Omcoda + GTA product-company Plan C + CS program as access), an organizational role (founder-operator now; mid-IC product/backend later), a technical object (live domain core with a product face), and professional requirements (the map in §2 and the artifact bar in §8). Those are now specified at research depth.
+```
+                                The Completed Architecture
+                                
+                    ┌─────────────────────────────────────────────────┐
+                    │                  CENTRAL CRAFT                  │
+                    │      Software & Product Engineering Driven      │
+                    │            by a Deep Systems Spine              │
+                    └─────────────────────────────────────────────────┘
+                                             │
+                      ┌──────────────────────┴──────────────────────┐
+                      ▼                                             ▼
+          ┌───────────────────────┐                     ┌───────────────────────┐
+          │    TECHNICAL SPINE    │                     │   SUPPORTING LAYERS   │
+          │ Relational Integrity, │                     │ Targeted Cloud Ops,   │
+          │ State Modeling,       │                     │ Temporal Data Truth,  │
+          │ Idempotent Background │                     │ Field Discovery &     │
+          │ Workers, Robust APIs  │                     │ Deliberate Brief Cuts │
+          └───────────────────────┘                     └───────────────────────┘
+                      │                                             │
+                      └──────────────────────┬──────────────────────┘
+                                             │
+                                             ▼
+                                  OPERATIONAL INTEGRATION
+                     Plan A (Omcoda): Real-World Product Laboratory
+                     Plan B (Operator): High-Value Commercial Delivery
+                     Plan C (Degree): Expanded Institutional Access
+```
 
-It still should **not** start until question 1 (Tower as artifact) is answered. Everything else in this file is reusable; that one fact decides whether the architecture is available or still hypothetical.
+### 10.1 Central Craft
+The central discipline is **Software and Product Engineering grounded in a deep Backend and Systems spine**. The engineer's highest priority is taking an important business process, modeling it cleanly in code, protecting its core rules through relational schemas, delivering it through an intuitive interface, and keeping it running reliably in production.
+
+### 10.2 Technical Spine
+The deepest technical competencies center on **Backend and Core Systems Engineering**: relational database modeling, constraint enforcement, atomic transactions, reliable asynchronous worker systems, idempotency guarantees, clean API architecture, and structured observability. This systems foundation is what separates a true product engineer from a generic frontend developer.
+
+### 10.3 Supporting Disciplines and Established Ceilings
+- **Cloud Infrastructure (R1):** Mastered to ensure predictable, automated application deployments, secure secret management, and verified data recovery. *Ceiling:* Avoid building complex, generic internal developer platforms or enterprise Kubernetes clusters.
+- **Data & Automation (R3):** Mastered to model temporal records, ensure reliable data ingestion, and execute transactional data reconciliation. *Ceiling:* Avoid building heavy, distributed analytical pipelines where a well-tuned relational database is sufficient.
+- **Field & Solutions Engineering (R4):** Mastered to conduct operational discovery, understand administrative friction, observe real user behavior, and onboard client firms using standardized playbooks. *Ceiling:* Firmly decline bespoke development contracts and avoid becoming an implementation consultant for third-party software.
+
+### 10.4 Strategic ABC Integration
+- **Plan A (Omcoda) Role:** Acts as the primary training laboratory. It provides the operational reality needed to build deep backend competence: live production constraints, active users, persistent data, and real system failures.
+- **Plan B (Independent Operator) Role:** Generates independent commercial income by deploying and operating standardized software for paying firms. It creates a defensible portfolio of real engineering artifacts while avoiding the trap of bespoke freelance agency work.
+- **Plan C (Degree-Expanded Access) Role:** Uses completion of a computer science degree to clear automated hiring filters, algorithmic technical screening loops, and institutional requirements at major technology companies and financial institutions.
+
+```
+Summary of the Transition:
+Independent Operator (Plan B) ──► Builds Live Systems & Artifacts (Plan A) ──► Adds CS Credential (Plan C) ──► Unlocks High-Leverage Product Roles
+```
+
+### 10.5 Open Questions to Resolve Before Character Architecture
+
+Before moving forward into Character Architecture, several practical questions must be verified:
+
+1. **Direct Inspection of Tower's Current Technical Depth:** Tower's codebase must be reviewed against the concrete standards in §3 and §8. We must verify whether it already operates with a formal relational state machine, persistent background workers, and automated test coverage, or whether it currently functions as a prototype.
+2. **Commercial Validation in the Target Market:** We must determine whether local professional-services firms (immigration and legal practices) are actively willing to pay for specialized, managed tracking software rather than relying on standard practice management tools combined with manual workflows.
+3. **Assessing Personal Capacity and Pipeline:** We must evaluate whether the operator can secure early client commitments independently, balancing business development alongside active software engineering.
+4. **Academic Logistics and Workload Balance:** We must plan the specific academic pathway (such as selecting degree programs and managing course loads) to ensure that academic commitments do not disrupt the operational focus required to maintain Plan A and Plan B.
 
 ---
 
-## Source index (compressed)
-
-Route files and the prior synthesis: [`role-architecture-deep-pass.md`](role-architecture-deep-pass.md), [`evidence/route-1-cloud-infra.md`](evidence/route-1-cloud-infra.md), [`evidence/route-2-software-product.md`](evidence/route-2-software-product.md), [`evidence/route-3-data-automation.md`](evidence/route-3-data-automation.md), [`evidence/route-4-solutions-implementation.md`](evidence/route-4-solutions-implementation.md), [`evidence/route-5-backend-systems.md`](evidence/route-5-backend-systems.md).
-
-2026 market scan and artifact memo: [`evidence/plan-c-market-2026.md`](evidence/plan-c-market-2026.md), [`evidence/artifact-quality.md`](evidence/artifact-quality.md).
-
-Primary anchors used in this file: omcoda.com; Faire / Ashby / Docebo / Wealthsimple / Harvey / Publicus / Palantir JDs (URLs in the market file); Job Bank / COPS / Indeed Hiring Lab; Bloomberry; Tandem; Fowler MonolithFirst / Microservice Premium; Shopify modular monolith; 37signals; Segment/Twilio; Chatwoot, Cal.com, Twenty, Ghost; Kleppmann DDIA; Mastering Backend; EnzRossi; staffeng archetypes; Google Time Warp; Consensus 2026 SE report; PEO unlicensed-practice FAQ.
-
----
-
-*End of Combined Role Architecture. No employment title is selected. No route is eliminated. The working choice is supported as an Omcoda/TSO capability architecture and is not supported as a single vacancy.*
+*End of Combined Role Architecture synthesis. This document defines the unified capability profile, establishes concrete requirements, and maps out a defensible career pathway without papering over market friction or empirical realities.*
