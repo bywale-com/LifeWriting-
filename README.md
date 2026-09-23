@@ -31,6 +31,10 @@ Character Architecture, Pool B (relational / ordinary interpersonal life):
 
 Also: [novels](research/character-pool-b-literature.md), [screen](research/screen-serial-pool-b.md), [documented lives](research/real-lives-pool-b.md).
 
+Five independent chapters of the same interview, on this same branch:
+
+**[research/character-discovery/](research/character-discovery/)**
+
 Role conclusion & immediate 40-hour foundations plan:
 
 **[role/foundations/README.md](role/foundations/README.md)**
