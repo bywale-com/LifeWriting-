@@ -3,6 +3,7 @@
 | Document | Role |
 |---|---|
 | [combined-role-architecture.md](combined-role-architecture.md) | Current working architecture. Combined Product + Backend spine. Read this. |
+| [character-candidates.md](character-candidates.md) | Character Architecture observational research pool (32 case studies across fiction, screen, animation, and history). Lives in research until complete. |
 | [role-architecture-deep-pass.md](role-architecture-deep-pass.md) | Prior five-route synthesis. No winner. |
 | [evidence/route-1-cloud-infra.md](evidence/route-1-cloud-infra.md) | Route 1 evidence |
 | [evidence/route-2-software-product.md](evidence/route-2-software-product.md) | Route 2 evidence |
