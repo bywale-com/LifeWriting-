@@ -4,7 +4,8 @@
 **Domain:** Character Architecture (Observational Foundation).  
 **Location:** Lives in [`research/`](./) until Character Architecture research is complete.  
 **Subject:** Wale Omotayo, Greater Toronto Area. Technical Systems Operator archetype.  
-**Purpose:** Generate a broad, rigorous, multi-dimensional catalog of observed characters across literature, cinema, television, animation, graphic storytelling, history, biography, statecraft, science, and master craft.
+**Purpose:** Generate a broad catalog of observed characters before any selection or synthesis.  
+**This file is Pool A only.** Relational and ordinary-life specimens are in the Pool B files listed at the end. Pool A is kept. It is not the whole sample.
 
 ---
 
@@ -23,7 +24,10 @@ This catalog serves as the empirical observational pool for **Character Architec
 
 ### 3. Purpose: Discovery, Not Synthesis
 - **No attempt is made to choose "the best" character or construct an ideal personality composite.**
-- The objective is strictly observational: laying out high-resolution behavioral specimens across different environments so that personal attractions, instinctive rejections, boundary lines, and behavioral patterns can be discovered in the next phase.
+- The objective is strictly observational: laying out behavioral specimens so that attractions, rejections, and confusion can be noticed later, by reaction, not by composing a personality in advance.
+
+### 4. What this first pass actually did
+The thirty-two people below cluster toward austere, competent, institutional, and command-oriented conduct. Words such as "gold standard," "pinnacle," and "definitive" appear in some entries. Those phrases are researcher tone. They are not findings. The five lenses at the end of this file were also read off this cluster. They do not cover ordinary friendship, meals, awkwardness, romance, hosting, or collaboration among equals. That material is Pool B. Do not use the questions that used to close this file. They asked for a blend of Marshall, Freamon, Smiley, Fielding, and Lincoln. That is composition. It has been removed.
 
 ---
 
@@ -434,9 +438,9 @@ This catalog serves as the empirical observational pool for **Character Architec
 
 ---
 
-## 5. Cross-Cutting Observational Lenses
+## 5. Lenses that this pool happens to support
 
-To structure subsequent inquiry without imposing a premature synthesis, the 32 subjects can be observed across five recurring operational lenses:
+These five lenses describe situations that recur inside Pool A. They are not a map of human conduct, and they are not a menu for a future personality.
 
 ```
                             THE 5 OBSERVATIONAL LENSES
@@ -478,13 +482,18 @@ To structure subsequent inquiry without imposing a premature synthesis, the 32 s
 
 ---
 
-## 6. Next Steps for Character Discovery
+## 6. Where the sample goes next
 
-This catalog establishes the observational pool. In the subsequent Character Architecture phase, these cases will be evaluated not as heroes to emulate, but as behavioral specimens to test against the operator's personal attractions and rejections:
+Pool A stops here. No blend is proposed.
 
-1. **The Energy Budget:** Does the Technical Systems Operator require the austere, low-friction endurance of a *Marshall / Freamon* or the kinetic, uncompromising rigor of an *Olivier Armstrong / Marie Curie*?
-2. **The Social Filter:** What combination of *Smiley's* invisible forensic listening, *Fielding's* unpretentious candid boundary-crossing, and *Lincoln's* disarming dialectical patience best protects technical deep work while navigating organizational friction?
-3. **The Defense Against Seduction:** How does an operator maintain *Count Rostov's* inner sovereignty or *Jiro's* monastic refusal of commercial scaling when facing the short-term market incentives of 2026?
+Pool B, relational and ordinary interpersonal conduct, is in:
+
+- [character-pool-b-literature.md](character-pool-b-literature.md) — novels, first pass (12)
+- [screen-serial-pool-b.md](screen-serial-pool-b.md) — film and television, first pass (9 kept)
+- [real-lives-pool-b.md](real-lives-pool-b.md) — diaries, letters, memoirs, first pass (12)
+- [character-pool-b-further.md](character-pool-b-further.md) — second pass, searched past the seed list (19)
+
+The next stage is reaction to specimens, not a questionnaire about which traits to combine. Reactions can stay primitive: yes, no, interesting, repulsive, only this part, absolutely not this part, I do not understand why I like this, this feels like me already, this would exhaust me, I wish I had that.
 
 ---
-*End of Character Architecture Observational Research Pool. No personality is selected. No archetype is crowned. The cases stand ready for preference discovery.*
+*End of Pool A. No personality is selected.*

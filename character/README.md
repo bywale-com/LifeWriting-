@@ -18,4 +18,8 @@ Following the completion of **Role Architecture** in [`/workspace/role/`](../rol
 
 Per LifeWriting protocol, active observational research lives in [`research/`](../research/) until discovery and preference mapping are complete:
 
-- **[Character Architecture — Observational Research Pool (`research/character-candidates.md`)](../research/character-candidates.md):** 32 detailed case studies across Literature, Film & Prestige TV, Animation & Graphic Storytelling, and History/Science/Craft. Structures concrete behavioral observations across distinct situations to discover patterns, attractions, and operational boundaries without premature personality synthesis.
+- **[Pool A (`research/character-candidates.md`)](../research/character-candidates.md):** Thirty-two specimens weighted toward pressure, craft, and institutions. Kept as a pool, not as a portrait. The closing composition questions have been removed.
+- **[Pool B, novels](../research/character-pool-b-literature.md), [screen](../research/screen-serial-pool-b.md), [documented lives](../research/real-lives-pool-b.md):** Ordinary interpersonal conduct. First pass.
+- **[Pool B, further specimens](../research/character-pool-b-further.md):** Second pass, past the seed list. Nineteen more people, described by what they do.
+
+No personality is being assembled from these files. The next use of the material is reaction to individual specimens.

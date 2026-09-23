@@ -3,7 +3,11 @@
 | Document | Role |
 |---|---|
 | [combined-role-architecture.md](combined-role-architecture.md) | Current working architecture. Combined Product + Backend spine. Read this. |
-| [character-candidates.md](character-candidates.md) | Character Architecture observational research pool (32 case studies across fiction, screen, animation, and history). Lives in research until complete. |
+| [character-candidates.md](character-candidates.md) | Pool A. Thirty-two pressure, craft, and institutional specimens. Kept. Narrow in temperament. Composition questions removed. |
+| [character-pool-b-literature.md](character-pool-b-literature.md) | Pool B, novels, first pass (12). |
+| [screen-serial-pool-b.md](screen-serial-pool-b.md) | Pool B, film and television, first pass (9 kept; three comic-center drafts removed). |
+| [real-lives-pool-b.md](real-lives-pool-b.md) | Pool B, diaries, letters, and memoirs, first pass (12). |
+| [character-pool-b-further.md](character-pool-b-further.md) | Pool B, second pass. Nineteen specimens searched past the seed list. |
 | [role-architecture-deep-pass.md](role-architecture-deep-pass.md) | Prior five-route synthesis. No winner. |
 | [evidence/route-1-cloud-infra.md](evidence/route-1-cloud-infra.md) | Route 1 evidence |
 | [evidence/route-2-software-product.md](evidence/route-2-software-product.md) | Route 2 evidence |
