@@ -4,7 +4,7 @@ Five independent chapters of the same scenario. They were written separately. Th
 
 Read them as fiction. No version is selected.
 
-The brief for a further chapter, not a revision of any of these, is [PROMPT-the-interview.md](PROMPT-the-interview.md).
+The brief for a further chapter, not a revision of any of these, is [PROMPT-the-interview.md](PROMPT-the-interview.md). The chapter written from that brief is [the-interview-06.md](the-interview-06.md). Chapters 01 through 05 are unchanged.
 
 - [the-interview-01.md](the-interview-01.md)
 - [the-interview-02.md](the-interview-02.md)
