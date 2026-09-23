@@ -9,6 +9,7 @@
 | [real-lives-pool-b.md](real-lives-pool-b.md) | Pool B, diaries, letters, and memoirs, first pass (12). |
 | [character-pool-b-further.md](character-pool-b-further.md) | Pool B, second pass. Nineteen specimens searched past the seed list. |
 | [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
+| [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
 | [role-architecture-deep-pass.md](role-architecture-deep-pass.md) | Prior five-route synthesis. No winner. |
 | [evidence/route-1-cloud-infra.md](evidence/route-1-cloud-infra.md) | Route 1 evidence |
 | [evidence/route-2-software-product.md](evidence/route-2-software-product.md) | Route 2 evidence |
