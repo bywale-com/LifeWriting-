@@ -23,3 +23,5 @@ Per LifeWriting protocol, active observational research lives in [`research/`](.
 - **[Pool B, further specimens](../research/character-pool-b-further.md):** Second pass, past the seed list. Nineteen more people, described by what they do.
 
 No personality is being assembled from these files. The next use of the material is reaction to individual specimens.
+
+- **[The Interview](../research/character-discovery/README.md):** Five separate fictional chapters of one interview scenario. Read them as chapters. None is chosen.
