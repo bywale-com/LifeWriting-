@@ -1,6 +1,9 @@
 # Character discovery
 
-Current progress, recorded verbatim: [progress-2026-09-25.md](progress-2026-09-25.md).
+Current progress, recorded verbatim, in order:
+
+- [progress-2026-09-25.md](progress-2026-09-25.md) — Unconstrained Outwardness.
+- [progress-2026-09-25-consequence-detachment-asymmetry.md](progress-2026-09-25-consequence-detachment-asymmetry.md) — Consequence, detachment, and asymmetry. Continues the first note.
 
 ## The Interview
 

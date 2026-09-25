@@ -25,4 +25,5 @@ Per LifeWriting protocol, active observational research lives in [`research/`](.
 No personality is being assembled from these files. The next use of the material is reaction to individual specimens.
 
 - **[Current progress, 25 September 2026](../research/character-discovery/progress-2026-09-25.md):** Verbatim record of the path from the negative constraint, through Patrick Jane, to Unconstrained Outwardness.
+- **[Continuation, same day](../research/character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md):** Verbatim record of consequence, perceptive detachment, and asymmetry.
 - **[The Interview](../research/character-discovery/README.md):** Five separate fictional chapters of one interview scenario, plus a later chapter from a revised brief. Read them as chapters. None is chosen.

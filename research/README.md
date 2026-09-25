@@ -8,7 +8,8 @@
 | [screen-serial-pool-b.md](screen-serial-pool-b.md) | Pool B, film and television, first pass (9 kept; three comic-center drafts removed). |
 | [real-lives-pool-b.md](real-lives-pool-b.md) | Pool B, diaries, letters, and memoirs, first pass (12). |
 | [character-pool-b-further.md](character-pool-b-further.md) | Pool B, second pass. Nineteen specimens searched past the seed list. |
-| [character-discovery/progress-2026-09-25.md](character-discovery/progress-2026-09-25.md) | Current character progress, verbatim. Unconstrained Outwardness. |
+| [character-discovery/progress-2026-09-25.md](character-discovery/progress-2026-09-25.md) | Character progress, verbatim. Unconstrained Outwardness. |
+| [character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md](character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md) | Continues the 25 September record. Consequence, perceptive detachment, asymmetry. |
 | [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
 | [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
 | [character-discovery/the-interview-06.md](character-discovery/the-interview-06.md) | New chapter written from that brief. Chapters 01–05 unchanged. |
