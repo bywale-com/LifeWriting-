@@ -4,6 +4,7 @@ Current progress, recorded verbatim, in order:
 
 - [progress-2026-09-25.md](progress-2026-09-25.md) — Unconstrained Outwardness.
 - [progress-2026-09-25-consequence-detachment-asymmetry.md](progress-2026-09-25-consequence-detachment-asymmetry.md) — Consequence, detachment, and asymmetry. Continues the first note.
+- [progress-2026-09-25-taxonomy-scenarios-routines.md](progress-2026-09-25-taxonomy-scenarios-routines.md) — Taxonomy, scenarios, and routines. Continues the second note. Diagnostic self-perception added under self-telemetry.
 
 ## The Interview
 

@@ -26,4 +26,5 @@ No personality is being assembled from these files. The next use of the material
 
 - **[Current progress, 25 September 2026](../research/character-discovery/progress-2026-09-25.md):** Verbatim record of the path from the negative constraint, through Patrick Jane, to Unconstrained Outwardness.
 - **[Continuation, same day](../research/character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md):** Verbatim record of consequence, perceptive detachment, and asymmetry.
+- **[Taxonomy, scenarios, and routines, same day](../research/character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md):** Verbatim record of the capability taxonomy, scenario dimensions, and the first routine. Diagnostic self-perception added under self-telemetry.
 - **[The Interview](../research/character-discovery/README.md):** Five separate fictional chapters of one interview scenario, plus a later chapter from a revised brief. Read them as chapters. None is chosen.
