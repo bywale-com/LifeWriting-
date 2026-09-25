@@ -1,4 +1,8 @@
-# The Interview
+# Character discovery
+
+Current progress, recorded verbatim: [progress-2026-09-25.md](progress-2026-09-25.md).
+
+## The Interview
 
 Five independent chapters of the same scenario. They were written separately. They are not ranked, and they are not five branches.
 
