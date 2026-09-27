@@ -3,6 +3,17 @@
 | Document | Role |
 |---|---|
 | [combined-role-architecture.md](combined-role-architecture.md) | Current working architecture. Combined Product + Backend spine. Read this. |
+| [character-candidates.md](character-candidates.md) | Pool A. Thirty-two pressure, craft, and institutional specimens. Kept. Narrow in temperament. Composition questions removed. |
+| [character-pool-b-literature.md](character-pool-b-literature.md) | Pool B, novels, first pass (12). |
+| [screen-serial-pool-b.md](screen-serial-pool-b.md) | Pool B, film and television, first pass (9 kept; three comic-center drafts removed). |
+| [real-lives-pool-b.md](real-lives-pool-b.md) | Pool B, diaries, letters, and memoirs, first pass (12). |
+| [character-pool-b-further.md](character-pool-b-further.md) | Pool B, second pass. Nineteen specimens searched past the seed list. |
+| [character-discovery/progress-2026-09-25.md](character-discovery/progress-2026-09-25.md) | Character progress, verbatim. Unconstrained Outwardness. |
+| [character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md](character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md) | Continues the 25 September record. Consequence, perceptive detachment, asymmetry. |
+| [character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md](character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md) | Continues the same day. Ability taxonomy, scenarios, routines. Diagnostic self-perception added under self-telemetry. |
+| [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
+| [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
+| [character-discovery/the-interview-06.md](character-discovery/the-interview-06.md) | New chapter written from that brief. Chapters 01–05 unchanged. |
 | [role-architecture-deep-pass.md](role-architecture-deep-pass.md) | Prior five-route synthesis. No winner. |
 | [evidence/route-1-cloud-infra.md](evidence/route-1-cloud-infra.md) | Route 1 evidence |
 | [evidence/route-2-software-product.md](evidence/route-2-software-product.md) | Route 2 evidence |

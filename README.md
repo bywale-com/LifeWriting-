@@ -13,13 +13,27 @@ LifeWriting is organized into two primary operational dimensions supported by de
   - [`role/seats/`](role/seats/): Operational agent seat definitions (e.g. `study-partner`).
   - [`role/register/`](role/register/): Append-only running study logs tracking first-principles inquiries and mechanical breakthroughs.
 - **[`character/`](character/):** Defines the environmental, behavioral, and personal architecture required to embody this role over time.
-- **[`research/`](research/):** Contains the foundational evidence base, deep route dossiers (Routes 1–5), 2026 Canadian labor market scan, and production artifact standards.
+- **[`research/`](research/):** Evidence base, route dossiers, and the Character Architecture pools. Pool A is [`research/character-candidates.md`](research/character-candidates.md). Pool B is the relational sample: [novels](research/character-pool-b-literature.md), [screen](research/screen-serial-pool-b.md), [documented lives](research/real-lives-pool-b.md), and a [second pass](research/character-pool-b-further.md).
 
 ## Read this first
 
 Current working architecture (combined Product Engineering + Backend/Systems spine):
 
 **[research/combined-role-architecture.md](research/combined-role-architecture.md)**
+
+Character Architecture, Pool A (kept; temperamentally narrow):
+
+**[research/character-candidates.md](research/character-candidates.md)**
+
+Character Architecture, Pool B (relational / ordinary interpersonal life):
+
+**[research/character-pool-b-further.md](research/character-pool-b-further.md)** — start here for the second pass
+
+Also: [novels](research/character-pool-b-literature.md), [screen](research/screen-serial-pool-b.md), [documented lives](research/real-lives-pool-b.md).
+
+Five independent chapters of the same interview, on this same branch:
+
+**[research/character-discovery/](research/character-discovery/)**
 
 Role conclusion & immediate 40-hour foundations plan:
 
