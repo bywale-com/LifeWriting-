@@ -35,6 +35,10 @@ Five independent chapters of the same interview, on this same branch:
 
 **[research/character-discovery/](research/character-discovery/)**
 
+Discovery as a staged capability (research dossier, not a practice program):
+
+**[research/character-discovery/discovery.md](research/character-discovery/discovery.md)**
+
 Role conclusion & immediate 40-hour foundations plan:
 
 **[role/foundations/README.md](role/foundations/README.md)**
