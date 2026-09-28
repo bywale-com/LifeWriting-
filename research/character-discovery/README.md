@@ -5,6 +5,8 @@ Current progress, recorded verbatim, in order:
 - [progress-2026-09-25.md](progress-2026-09-25.md) — Unconstrained Outwardness.
 - [progress-2026-09-25-consequence-detachment-asymmetry.md](progress-2026-09-25-consequence-detachment-asymmetry.md) — Consequence, detachment, and asymmetry. Continues the first note.
 - [progress-2026-09-25-taxonomy-scenarios-routines.md](progress-2026-09-25-taxonomy-scenarios-routines.md) — Taxonomy, scenarios, and routines. Continues the second note. Diagnostic self-perception added under self-telemetry.
+- [Character Architecture — Alarm Calibration, Relational States, and Asymmetry-Seeking](Character%20Architecture%20%E2%80%94%20Alarm%20Calibration%2C%20Relational%20States%2C%20and%20Asymmetry-Seeking) — Alarm configuration, the relationship spectrum, and asymmetry-seeking. Continues the taxonomy note.
+- [discovery.md](discovery.md) — Discovery as a staged epistemic capability. Research dossier across established disciplines. Continues the alarm note. Not a practice program.
 
 ## The Interview
 
