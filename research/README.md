@@ -13,6 +13,7 @@
 | [character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md](character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md) | Continues the same day. Ability taxonomy, scenarios, routines. Diagnostic self-perception added under self-telemetry. |
 | [character-discovery/Character Architecture — Alarm Calibration, Relational States, and Asymmetry-Seeking](character-discovery/Character%20Architecture%20%E2%80%94%20Alarm%20Calibration%2C%20Relational%20States%2C%20and%20Asymmetry-Seeking) | Continues the taxonomy note. Alarm calibration, relationship spectrum, asymmetry-seeking. |
 | [character-discovery/discovery.md](character-discovery/discovery.md) | Discovery capability. Eight-stage research dossier. Not body language. Not a practice program. |
+| [character-discovery/relational-enabling.md](character-discovery/relational-enabling.md) | Relational enabling and movement. Challenges the spectrum and the two-path split. Not a practice program. |
 | [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
 | [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
 | [character-discovery/the-interview-06.md](character-discovery/the-interview-06.md) | New chapter written from that brief. Chapters 01–05 unchanged. |

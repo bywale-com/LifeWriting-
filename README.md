@@ -39,6 +39,10 @@ Discovery as a staged capability (research dossier, not a practice program):
 
 **[research/character-discovery/discovery.md](research/character-discovery/discovery.md)**
 
+Relational enabling and movement (research dossier; challenges the spectrum):
+
+**[research/character-discovery/relational-enabling.md](research/character-discovery/relational-enabling.md)**
+
 Role conclusion & immediate 40-hour foundations plan:
 
 **[role/foundations/README.md](role/foundations/README.md)**
