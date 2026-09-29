@@ -5,6 +5,9 @@ Current progress, recorded verbatim, in order:
 - [progress-2026-09-25.md](progress-2026-09-25.md) — Unconstrained Outwardness.
 - [progress-2026-09-25-consequence-detachment-asymmetry.md](progress-2026-09-25-consequence-detachment-asymmetry.md) — Consequence, detachment, and asymmetry. Continues the first note.
 - [progress-2026-09-25-taxonomy-scenarios-routines.md](progress-2026-09-25-taxonomy-scenarios-routines.md) — Taxonomy, scenarios, and routines. Continues the second note. Diagnostic self-perception added under self-telemetry.
+- [progress-2026-09-27-self-telemetry-alarm-calibration.md](progress-2026-09-27-self-telemetry-alarm-calibration.md) — Self-telemetry, alarm calibration, Proto/Intermediary/Prime, bug scenario. Verbatim.
+- [PROMPT-self-telemetry-alarm-calibration-research.md](PROMPT-self-telemetry-alarm-calibration-research.md) — Research brief for alarm calibration. Verbatim.
+- [self-telemetry-alarm-calibration-research-synthesis.md](self-telemetry-alarm-calibration-research-synthesis.md) — Literature synthesis executed from that brief.
 
 ## The Interview
 

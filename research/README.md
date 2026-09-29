@@ -11,6 +11,9 @@
 | [character-discovery/progress-2026-09-25.md](character-discovery/progress-2026-09-25.md) | Character progress, verbatim. Unconstrained Outwardness. |
 | [character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md](character-discovery/progress-2026-09-25-consequence-detachment-asymmetry.md) | Continues the 25 September record. Consequence, perceptive detachment, asymmetry. |
 | [character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md](character-discovery/progress-2026-09-25-taxonomy-scenarios-routines.md) | Continues the same day. Ability taxonomy, scenarios, routines. Diagnostic self-perception added under self-telemetry. |
+| [character-discovery/progress-2026-09-27-self-telemetry-alarm-calibration.md](character-discovery/progress-2026-09-27-self-telemetry-alarm-calibration.md) | Self-telemetry and alarm calibration architecture. Verbatim. |
+| [character-discovery/PROMPT-self-telemetry-alarm-calibration-research.md](character-discovery/PROMPT-self-telemetry-alarm-calibration-research.md) | Sub-agent research brief for alarm calibration. Verbatim. |
+| [character-discovery/self-telemetry-alarm-calibration-research-synthesis.md](character-discovery/self-telemetry-alarm-calibration-research-synthesis.md) | Evidence synthesis: mechanisms, technique cards, prototypes. |
 | [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
 | [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
 | [character-discovery/the-interview-06.md](character-discovery/the-interview-06.md) | New chapter written from that brief. Chapters 01–05 unchanged. |
