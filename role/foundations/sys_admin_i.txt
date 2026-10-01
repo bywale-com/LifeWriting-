@@ -1,0 +1,134 @@
+Windows System Admin
+
+#Creating environment variables and functions shortcuts to navigate files and folders.
+---- notepad $PROFILE, . $PROFILE, function name = { Set-Location $environment_variable }
+
+- First create the environment variable
+
+$new_variable = Join-Path $env:'Documents' *Use this when you're referencing pre-made windows compoartments i.e C:\ E.T.C
+
+OR 
+
+$new_variable_i = C:\User\ABSOLUTE_PATH 
+
+OR
+
+$new_variable_ii = $new_variable '\sub-directory'
+
++ After you've created the variable, call it in a function
+
+- Search Filtering files, folders and artifacts.
+
+function name = { Set-Location $environment_variable }
+
+Now you can use it in a command:
+
++terminal
+
+Get-ChildItem $new_variable -Filter *.pdf
+
+#creating new files
+
+
+#combining environment file/folder shortcuts with additional file destinations and branches.
+
+
+#using the tree command
+
+
+#Searching For things - Looking for things, Finding things, Searching files and folders
+
+Get-ChildItem $dl -Filter *.pdf
+# Name starts with 2026
+Get-ChildItem $school -Recurse -Filter '2026*' -ErrorAction SilentlyContinue
+# Name contains "math" (anywhere)
+Get-ChildItem $school -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*math*' }
+# Name contains COIS and is a PDF
+Get-ChildItem $school -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*COIS*' -and $_.Extension -eq '.pdf' }
+# Regex: outline OR syllabus in name
+Get-ChildItem $docs -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -match 'outline|syllabus' }
+# Limit depth (don't dig forever)
+Get-ChildItem $wale -Recurse -Depth 4 -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*sys_admin*' }
+# Folders only, name contains "role"
+Get-ChildItem $wale -Recurse -Directory -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*role*' }
+# Modified in last 7 days, Downloads
+Get-ChildItem $dl -File |
+  Where-Object { $_.LastWriteTime -gt (Get-Date).AddDays(-7) }
+# Big files over 50 MB under School
+Get-ChildItem $school -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Length -gt 50MB } |
+  Sort-Object Length -Descending
+# Show full path (easier to copy)
+Get-ChildItem $dl -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*OSAP*' } |
+  Select-Object -ExpandProperty FullName
+# Search text inside files (e.g. .txt, .py, .md)
+Select-String -Path (Join-Path $school '*') -Pattern 'shippingCost' -Recurse -ErrorAction SilentlyContinue
+# Content search with file-type filter
+Get-ChildItem $school -Recurse -Include *.py,*.txt,*.md -File -ErrorAction SilentlyContinue |
+  Select-String -Pattern 'def test_'
+# From current folder only (after you cd somewhere)
+Get-ChildItem . -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*foundation*' }
+# Explorer-style: everything under profile with "assessment" in name (slower)
+Get-ChildItem $env:USERPROFILE -Recurse -File -ErrorAction SilentlyContinue |
+  Where-Object { $_.Name -like '*assessment*' } |
+  Select-Object FullName, LastWriteTime
+
+
+#copying and moving items between folders
+
++ one nifty tip is this. You can be in the folder where you want the files moved ( when destination folder is working folder ), and simply move the file with no target destination; it will place it in your working folder.
+
+like so:
+       
+PS C:\Users\omota\Documents\Wale Omotayo\School> Move-Item C:\Users\omota\Downloads\assignment1.pdf
+
+* This command will move the pdf file into my current working folder in .../school
+
+Copy vs move
+Intent	Cmdlet	Source after
+Keep original
+Copy-Item
+Still there
+Relocate
+Move-Item
+Gone from source
+Basic patterns (PowerShell)
+Copy one file into current folder:
+
+Copy-Item "$dl\report.pdf" .
+Copy into a specific folder:
+
+Copy-Item "$dl\report.pdf" $school\2026FALL\
+Move instead:
+
+Move-Item "$dl\report.pdf" $school\2026FALL\
+Rename while moving (same folder, new name):
+
+Move-Item .\old-name.pdf .\new-name.pdf
+Copy a whole folder:
+
+Copy-Item "$dl\SomeFolder" $school\ -Recurse
+After you cd (relative paths)
+cd $school\2026FALL
+Copy-Item "$dl\report.pdf" .
+Move-Item .\draft.pdf .\archive\
+Useful flags
+Copy-Item $src $dest -Force          # overwrite existing dest
+Move-Item $src $dest -Force
+New-Item -ItemType Directory -Path $dest -Force   # ensure folder exists first
+Quick check
+Test-Path $dest\report.pdf
+Get-Item $dest\report.pdf
+Classic cmd (optional)
+copy "%USERPROFILE%\Downloads\report.pdf" "C:\path\to\School\2026FALL\"
+move "%USERPROFILE%\Downloads\report.pdf" "C:\path\to\School\2026FALL\"
+Stick with Copy-Item / Move-Item in PowerShell — same quoting rules as your $dl, $school, and $wale shortcuts.
+
+

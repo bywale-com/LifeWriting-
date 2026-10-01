@@ -103,6 +103,9 @@ When studying how world-class production software is engineered in TypeScript, w
 2. **Predict Before You Run:** Before executing an action or endpoint, state the hypothesis: *File A will invoke Function B with Parameter C, resolving Promise D and updating Table E with Status S.* Run it and verify against reality.
 3. **Break It Deliberately:** Verify comprehension by intentionally altering state rules or cutting network calls, observing whether the system degrades with bounded safety or crashes ungracefully.
 
+### Craft reading (Layer 2 — parallel shelf)
+Long-form books for design, patterns, DI, legacy change, and code quality live under [`../study/`](../study/) (`materials/` PDFs + catalog). Log breakthroughs from that reading in [`../register/STUDY-LOG.md`](../register/STUDY-LOG.md), not in `research/`.
+
 ### Exit Criteria for the 40-Hour Block
 - Complete, independent line-by-line reading fluency across Travis's codebase.
 - Ability to diagnose why an action fails or behaves unexpectedly without relying on an AI explanation.
