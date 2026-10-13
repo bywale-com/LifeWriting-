@@ -31,6 +31,12 @@ Character Architecture, Pool B (relational / ordinary interpersonal life):
 
 Also: [novels](research/character-pool-b-literature.md), [screen](research/screen-serial-pool-b.md), [documented lives](research/real-lives-pool-b.md).
 
+Character Architecture (canon for this interval):
+
+**[research/character-discovery/character-architecture-from-alarm-recalibration-to-campaigns.md](research/character-discovery/character-architecture-from-alarm-recalibration-to-campaigns.md)**
+
+Earlier incomplete checkpoint (kept, not canon): [discovery-to-campaigns](research/character-discovery/character-architecture-from-discovery-to-campaigns-and-world-handoff.md).
+
 Five independent chapters of the same interview, on this same branch:
 
 **[research/character-discovery/](research/character-discovery/)**
