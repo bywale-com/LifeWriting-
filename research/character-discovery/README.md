@@ -1,5 +1,13 @@
 # Character discovery
 
+**Canon for this interval of Character Architecture:**
+
+- [character-architecture-from-alarm-recalibration-to-campaigns.md](character-architecture-from-alarm-recalibration-to-campaigns.md) — From alarm recalibration through Discovery, Influence / Verification, state, gambits, routines, aims, campaigns, and strategy. World handoff. Read this.
+
+**Earlier checkpoint (kept, not canon):**
+
+- [character-architecture-from-discovery-to-campaigns-and-world-handoff.md](character-architecture-from-discovery-to-campaigns-and-world-handoff.md) — Incomplete later-interval draft. Started too late; Discovery treated as already given. Stored, not superseded by deletion.
+
 Current progress, recorded verbatim, in order:
 
 - [progress-2026-09-25.md](progress-2026-09-25.md) — Unconstrained Outwardness.

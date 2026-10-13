@@ -1,5 +1,8 @@
 # Character Architecture — From Discovery to Campaigns, Gambits, and the World Handoff
 
+**Status:** Kept. Not canon. This is the earlier, incomplete checkpoint that started too late (Discovery treated as already given).  
+**Canon:** [character-architecture-from-alarm-recalibration-to-campaigns.md](character-architecture-from-alarm-recalibration-to-campaigns.md)
+
 ## Scope
 
 This document captures the Character Architecture work developed **after the previous markdown checkpoint**. It does not repeat the already-documented alarm-calibration, relational-spectrum, safety-cue, reachability, leverage, and earlier asymmetry-seeking material except where a later development changed, refined, or repositioned it.

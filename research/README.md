@@ -14,6 +14,8 @@
 | [character-discovery/progress-2026-09-27-self-telemetry-alarm-calibration.md](character-discovery/progress-2026-09-27-self-telemetry-alarm-calibration.md) | Self-telemetry and alarm calibration architecture. Verbatim. |
 | [character-discovery/PROMPT-self-telemetry-alarm-calibration-research.md](character-discovery/PROMPT-self-telemetry-alarm-calibration-research.md) | Sub-agent research brief for alarm calibration. Verbatim. |
 | [character-discovery/self-telemetry-alarm-calibration-research-synthesis.md](character-discovery/self-telemetry-alarm-calibration-research-synthesis.md) | Evidence synthesis: mechanisms, technique cards, prototypes. |
+| [character-discovery/character-architecture-from-alarm-recalibration-to-campaigns.md](character-discovery/character-architecture-from-alarm-recalibration-to-campaigns.md) | **Canon.** Character Architecture from alarm recalibration through campaigns, strategy, and World handoff. |
+| [character-discovery/character-architecture-from-discovery-to-campaigns-and-world-handoff.md](character-discovery/character-architecture-from-discovery-to-campaigns-and-world-handoff.md) | Earlier incomplete checkpoint. Kept; not canon. |
 | [character-discovery/README.md](character-discovery/README.md) | Five independent chapters titled “The Interview.” Same scenario. Not ranked. |
 | [character-discovery/PROMPT-the-interview.md](character-discovery/PROMPT-the-interview.md) | Brief for a new interview chapter. Not a rewrite of chapter 01. |
 | [character-discovery/the-interview-06.md](character-discovery/the-interview-06.md) | New chapter written from that brief. Chapters 01–05 unchanged. |
